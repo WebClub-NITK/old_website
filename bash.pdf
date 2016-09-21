@@ -1,0 +1,1020 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+5 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://git.io/kOVtRw) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 56.80529
+ 12.3313
+ 116.7183
+ 20.3313 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Annots [ 5 0 R ]
+ /Contents 10 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 9 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R7': class PDFCatalog 
+7 0 obj
+% Document Root
+<< /Outlines 11 0 R
+ /PageLabels 12 0 R
+ /PageMode /UseNone
+ /Pages 9 0 R
+ /Type /Catalog >>
+endobj
+% 'R8': class PDFInfo 
+8 0 obj
+<< /Author ()
+ /CreationDate (D:20130806191000-05'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Bash Handout) >>
+endobj
+% 'R9': class PDFPages 
+9 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 6 0 R ]
+ /Type /Pages >>
+endobj
+% 'R10': class PDFStream 
+10 0 obj
+% page stream
+<< /Length 23564 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 11.66929 827.2063 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1.4 Tm /F2 7 Tf 8.4 TL 262.2455 0 Td (Bash Handout) Tj T* -262.2455 0 Td ET
+Q
+Q
+q
+1 0 0 1 11.66929 820.2063 cm
+Q
+q
+1 0 0 1 11.66929 26.2063 cm
+1 1 1 rg
+n 0 794 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 780 571.937 -14 re f*
+1 1 1 rg
+n 0 766 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 752 571.937 -14 re f*
+1 1 1 rg
+n 0 738 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 724 571.937 -14 re f*
+1 1 1 rg
+n 0 710 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 696 571.937 -14 re f*
+1 1 1 rg
+n 0 682 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 668 571.937 -14 re f*
+1 1 1 rg
+n 0 654 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 640 571.937 -14 re f*
+1 1 1 rg
+n 0 626 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 612 571.937 -14 re f*
+1 1 1 rg
+n 0 598 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 584 571.937 -14 re f*
+1 1 1 rg
+n 0 570 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 556 571.937 -14 re f*
+1 1 1 rg
+n 0 542 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 528 571.937 -14 re f*
+1 1 1 rg
+n 0 514 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 500 571.937 -14 re f*
+1 1 1 rg
+n 0 486 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 472 571.937 -22 re f*
+1 1 1 rg
+n 0 450 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 436 571.937 -14 re f*
+1 1 1 rg
+n 0 422 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 408 571.937 -22 re f*
+1 1 1 rg
+n 0 386 571.937 -22 re f*
+.878431 .878431 .878431 rg
+n 0 364 571.937 -14 re f*
+1 1 1 rg
+n 0 350 571.937 -22 re f*
+.878431 .878431 .878431 rg
+n 0 328 571.937 -14 re f*
+1 1 1 rg
+n 0 314 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 300 571.937 -14 re f*
+1 1 1 rg
+n 0 286 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 272 571.937 -14 re f*
+1 1 1 rg
+n 0 258 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 244 571.937 -14 re f*
+1 1 1 rg
+n 0 230 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 216 571.937 -14 re f*
+1 1 1 rg
+n 0 202 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 188 571.937 -14 re f*
+1 1 1 rg
+n 0 174 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 160 571.937 -22 re f*
+1 1 1 rg
+n 0 138 571.937 -14 re f*
+.878431 .878431 .878431 rg
+n 0 124 571.937 -22 re f*
+1 1 1 rg
+n 0 102 571.937 -22 re f*
+.878431 .878431 .878431 rg
+n 0 80 571.937 -22 re f*
+1 1 1 rg
+n 0 58 571.937 -22 re f*
+.878431 .878431 .878431 rg
+n 0 36 571.937 -22 re f*
+1 1 1 rg
+n 0 14 571.937 -14 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 783 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ls -l ~) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#list files in home directory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 783 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (shuf -n 10 /var/log/syslog -o r.txt**``) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#create file with shuffled lines) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 769 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (mkdir dir src-dir dest-dir) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#make directories) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 769 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (passwd <) Tj (user) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#update password) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 755 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (rm -ir dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#remove dir interactively & recursively) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 755 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (source ~/.bashrc) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#update the configs in the current bash process) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 741 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cp -ir src-dir/ dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#copy recursively) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 741 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (for i in {1..10}; do echo The number is $i; done) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#simple for loop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 727 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (mv -i src-dir/ dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#move/rename) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 727 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (if [ -f ~/.bashrc ]; then echo File exists; fi) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#simple if condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 713 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (alias rm='rm -i') Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#make shortcut) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 713 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (while :;do echo Infinite loop [hit CTRL+c];done) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#simple while loop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 699 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (man man) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#print manual, press q to exit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 699 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (mutt -a <) Tj (file-to-be-attached) Tj (> -s <) Tj (subject) Tj (> <) Tj (email) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#wait for content) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 685 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (apropos copy) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search the term 'copy' in all man pages) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 685 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cat <) Tj (email content) Tj (> | mutt -a <) Tj (file) Tj (> -s <) Tj (sub) Tj (> <) Tj (email) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#non interactive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 671 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cat /etc/lsb-release /etc/bash.bashrc) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#print file content on stdout) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 671 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (mogrify -resize 50% -format jpg images/*.png) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#convert all png to jpg) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 657 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (less /etc/bash.bashrc) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#browse through file, 'q' to quit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 657 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (echo "hi" 1) Tj (>) Tj (so1; ls -z 1) Tj (>) Tj (so2) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#redirect STDOUT stream to files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 643 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (head -n1 /etc/bash.bashrc) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#print first line and exit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 643 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (echo "hi" 2) Tj (>) Tj (se1; ls -z 2) Tj (>) Tj (se2) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#redirect STDERR stream to files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 629 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (tail -n1 /etc/bash.bashrc) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#print last line and exit) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 629 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (mount | column -t) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show all mounted drives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 615 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (find ~/Downloads -iname \\*.pdf -size +4M) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#find files larger than 4MB) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 615 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo mount /dev/sd) Tj (<) Tj (partition) Tj (> /mnt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#mount partition to any directory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 601 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (grep 'nobody' /etc/passwd) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search line\(s\) with 'nobody') Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 601 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo umount /mnt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (un-mount the partition from directory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 587 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (grep -ri 'printf' /usr/include/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search recursive in dir & ignore case) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 587 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (tar -cvzf archive.tgz *.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#create compressed archive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 573 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (grep '\\) Tj (<) Tj (st..ct\\) Tj (>) Tj (' /usr/include/stdio.h) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#match pattern in all lines) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 573 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (tar -xvzf archive.tgz) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#extract to pwd\(present working directory\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 559 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (grep '^st..ct' /usr/include/stdio.h) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#match pattern in beginning of lines) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 559 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (zip allfiles.zip *.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#create a zip file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 545 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (chmod -R o+w dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#change permission to write for others) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 545 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (unzip allfiles.zip) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#unzip to pwd, may overwrite) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 531 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (chmod -R a=rx dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#only read and execute permission for all) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 531 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (unrar -x file.rar) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#unrar to pwd) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 517 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (chmod -R 775 dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#change permission to rwxrwxr-x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 517 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ln -s images/ ~/Desktop) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#create shortcut to Desktop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 503 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo chown -R root.root dest-dir/) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#change ownership to root\(admin\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 503 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (unlink ~/Desktop/images) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#remove shortcut) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 489 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (whoami) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#will return present user) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 489 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (touch 1.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#create a file of zero size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 475 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ls -l | grep 'rw') Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#pipe/send the STDOUT of ls -l to grep) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 475 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (which ls) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#return path of *ls* command) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 461 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (for i in {1..9}; do echo $i,$RANDOM | cut -c -5 >) Tj (> 1.csv;done) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (#generated csv file, this one liner will be explained later) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 461 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 7 Tf 8 TL (find /tmp/ -depth -name "* *" -execdir rename 's/ /_/g' "{}" ;) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 453 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F3 7 Tf 0 0 0 rg (#remove all white space from dirs & files recursively) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 439 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sort 1.csv) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#sort according to first column) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 439 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (kill -15 `pgrep firefox`) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#kill firefox) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 425 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sort -t ',' -r 1.csv) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#pipe output of 1st command to 'sort' command) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 425 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (rm -i `find ~/Downloads -iname *.pdf -size +16M`) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#rm results of *find*) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 411 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sort -t ',' -k2 1.csv > 2.csv) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#sort based on 2nd col & redirect to 2.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 411 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (top) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#will show system monitor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 397 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cat 2.csv | cut -d ',' -f 1,2 | paste -d ';' 1.csv - > 1_2.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 389 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F3 7 Tf 0 0 0 rg (#cut 1,2 col of 2.csv & paste next to 1.csv cols,separate with ;) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 397 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (last) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show listing of last logged in users) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 375 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cat 1.csv | awk {'print $1 + $2'} | paste -d ',' 1.csv - > sum.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 367 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (#sum first two column and create a third one, write to sum.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 375 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ping -c 5 127.0.0.1) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#check networking connectivity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 353 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (wget -c http://ftp.gnu.org/gnu/wget/wget-1.14.tar.xz) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#download file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 353 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (free -m) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show memory\(RAM\) usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 7 Tf 8 TL (wget -nd -P images/ -r -A.png http://matplotlib.org/gallery.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (# Download png files to *images* directory recursively) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 339 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (file /bin/ls) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show file type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 317 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ifconfig -a) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#will list all the network interfaces and their status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 317 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (w) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show logged in users and their activity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 303 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (export PATH=$PATH:/tmp/bin) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#add custom executable path) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 303 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (jhead -purejpg Photo/*.jpg) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#removes EXIF data from jpg files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 289 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (export PS1="[\\d \\t \\u@\\h:\\w ] $ ") Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#add custom bash prompt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 289 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cat 1.txt| tr a-z A-Z) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#convert to uppercase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 275 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (export http_proxy="http://user:passwd@host:port/") Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#https_proxy,ftp_proxy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 275 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (nmcli dev wifi connect <) Tj (name) Tj (> password <) Tj (password) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#connect to wifi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 261 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (export no_proxy=10.0.0.0/8,localhost,*.iitb.ac.in,127.0.0.1) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#ignore list) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 261 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo apt-cache search <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search packages\(debian,ubuntu,mint\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 247 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (ssh -X root@localhost) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#login to remote shell, '-X' enables X11) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 247 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo apt-get install <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#install package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 233 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (scp -r /etc/udev root@localhost:/tmp) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#copy to remote machine recursively) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 233 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo apt-get remove <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#uninstall package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 219 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (df -h) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#will list all filesystem disk space usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 219 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo dpkg -i <) Tj (package.deb) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#install local deb file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 205 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (du -sh ~) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#estimate file space usage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 205 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (dpkg -S /bin/ls) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search which package the command belongs to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 191 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (wc -lwm /etc/passwd) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#print number of lines, word, and char of file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 191 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (yum search <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search packages\(fedora,centOS,redhat\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 177 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (diff -y 1.txt 2.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#show difference of two files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 177 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo yum install <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#install package / local rpm install) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 163 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (cmp 1.txt 2.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#compare two files byte by byte) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 163 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sudo yum remove <) Tj (package) Tj (>) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#uninstall package) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 149 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 7 Tf 8 TL (mkdir sed; cd sed;for i in {1..1000}; do shuf -n 10 /var/log/dmesg -o $i.txt;done) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 141 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (#create text files with shuffled data, to practice 'sed' command) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 149 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (yum provides /bin/ls) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#search which package the command belongs to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 127 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sed 's/\\[//g' 1.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#replace '[' with empty string) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 127 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (pdftk A=in.pdf cat A8-12 output new.pdf) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#extract page 8 to 12) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 113 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 7 Tf 8 TL (sed 's/\\[//g' -i.orig {1..1000}.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (#replace '[' with empty string in place, repeat for 1000 files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 113 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (pdftk 1.pdf 2.pdf cat output 1_plus_2.pdf) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#add two pdf files) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 91 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F2 7 Tf 8 TL (sed 's/\\ *[0-9]*\\.[0-9]*\\]//g' -i {1..1000}.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 83 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F3 7 Tf 0 0 0 rg (#eg:' 10.405270]' --) Tj (> \\ *[0-9]*\\.[0-9]*\\]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 91 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (lsof | grep bash) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#list all the files used by bash currenty) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 69 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sed '1i He was here & HERE on top of every page' -i {1..1000}.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 1 Tm /F3 7 Tf 8 TL (Add text following '1i', '1' is the line number) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 69 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (nohup <) Tj (any-command) Tj (> &) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#continue running after logout) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 47 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sed 's/\\) Tj (<) Tj (here\\) Tj (>) Tj (/****/gi' -i {1..1000}.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F3 7 Tf 0 0 0 rg (Replace 'here' & 'HERE' with '****', 'gi' is global & ignore case) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 39 cm
+q
+BT 1 0 0 1 0 9 Tm 8 TL /F2 7 Tf 0 0 0 rg (mencoder in.ogv -subpos 85 -sub 1.srt -o out.ogv -oac copy -ovc lavc -lavcopts) Tj T* (vbitrate=1200 -subfont-text-scale 3) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#add subtitles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sed -n '/was/,/ugly UGLY/p' 1.txt >) Tj (pat.txt) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#Print lines between pattern) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 17 cm
+q
+BT 1 0 0 1 0 9 Tm 8 TL /F2 7 Tf 0 0 0 rg (ffmpeg -f alsa -ac 1 -i pulse -acodec pcm_s16le -f x11grab -r 2 -s 1366x768 -i :0.0) Tj T* (-vcodec libtheora -b 800k 2.ogv) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#record A/V) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sed = sed/10.txt | sed 'N;s/n/ /') Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#Add line number to file) Tj T* ET
+Q
+Q
+q
+1 0 0 1 291.9685 3 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F2 7 Tf 0 0 0 rg (sox noisyAudio.wav noisefree.wav noisered myprofile 0.26) Tj /F1 7 Tf ( ) Tj /F3 7 Tf (#remove noise) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 780 m 571.937 780 l S
+n 0 766 m 571.937 766 l S
+n 0 752 m 571.937 752 l S
+n 0 738 m 571.937 738 l S
+n 0 724 m 571.937 724 l S
+n 0 710 m 571.937 710 l S
+n 0 696 m 571.937 696 l S
+n 0 682 m 571.937 682 l S
+n 0 668 m 571.937 668 l S
+n 0 654 m 571.937 654 l S
+n 0 640 m 571.937 640 l S
+n 0 626 m 571.937 626 l S
+n 0 612 m 571.937 612 l S
+n 0 598 m 571.937 598 l S
+n 0 584 m 571.937 584 l S
+n 0 570 m 571.937 570 l S
+n 0 556 m 571.937 556 l S
+n 0 542 m 571.937 542 l S
+n 0 528 m 571.937 528 l S
+n 0 514 m 571.937 514 l S
+n 0 500 m 571.937 500 l S
+n 0 486 m 571.937 486 l S
+n 0 472 m 571.937 472 l S
+n 0 450 m 571.937 450 l S
+n 0 436 m 571.937 436 l S
+n 0 422 m 571.937 422 l S
+n 0 408 m 571.937 408 l S
+n 0 386 m 571.937 386 l S
+n 0 364 m 571.937 364 l S
+n 0 350 m 571.937 350 l S
+n 0 328 m 571.937 328 l S
+n 0 314 m 571.937 314 l S
+n 0 300 m 571.937 300 l S
+n 0 286 m 571.937 286 l S
+n 0 272 m 571.937 272 l S
+n 0 258 m 571.937 258 l S
+n 0 244 m 571.937 244 l S
+n 0 230 m 571.937 230 l S
+n 0 216 m 571.937 216 l S
+n 0 202 m 571.937 202 l S
+n 0 188 m 571.937 188 l S
+n 0 174 m 571.937 174 l S
+n 0 160 m 571.937 160 l S
+n 0 138 m 571.937 138 l S
+n 0 124 m 571.937 124 l S
+n 0 102 m 571.937 102 l S
+n 0 80 m 571.937 80 l S
+n 0 58 m 571.937 58 l S
+n 0 36 m 571.937 36 l S
+n 0 14 m 571.937 14 l S
+n 285.9685 0 m 285.9685 794 l S
+n 0 794 m 571.937 794 l S
+n 0 0 m 571.937 0 l S
+n 0 0 m 0 794 l S
+n 571.937 0 m 571.937 794 l S
+Q
+Q
+q
+1 0 0 1 11.66929 26.2063 cm
+Q
+q
+1 0 0 1 11.66929 12.2063 cm
+q
+BT 1 0 0 1 0 1 Tm 8 TL /F1 7 Tf 0 0 0 rg (Latest/Issues: ) Tj 0 0 .501961 rg (http://git.io/kOVtRw) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R11': class PDFOutlines 
+11 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R12': class PDFPageLabels 
+12 0 obj
+% Document Root
+<< /Nums [ 0
+ 13 0 R ] >>
+endobj
+% 'R13': class PDFPageLabel 
+13 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 14
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000746 00000 n
+0000000968 00000 n
+0000001266 00000 n
+0000001422 00000 n
+0000001677 00000 n
+0000001783 00000 n
+0000025449 00000 n
+0000025532 00000 n
+0000025625 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(o\246\304\267\362L.\372\260@\310\3637\370,\271) (o\246\304\267\362L.\372\260@\310\3637\370,\271)] 
+
+ /Info 8 0 R
+ /Root 7 0 R
+ /Size 14 >>
+startxref
+25672
+%%EOF
