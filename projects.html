@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Web Club NITK by WebClub-NITK</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Web Club NITK</h1>
+        <h2>Home Page of the NITK Web Club</h2>
+
+        <section id="downloads">
+          <a href="index.html"><span class="icon"></span>Home</a>
+          <a href="blogs.html"><span class="icon"></span>Blogs and Posts</a>
+          <a href="people.html"><span class="icon"></span>People</a>
+          <a href="https://github.com/WebClub-NITK"><span class="icon"></span>GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h2><a id="ongoing-projects" class="anchor" href="#ongoing-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ongoing Projects</h2>
+
+            <!-- List yourself here! Feel free to link to your twitter, facebook, blog, etc. -->
+            <h3> DHCP Relay Enhancement for ns-3 </h3>
+
+            <ul>
+	      <li>Project: Enabling Support for relays in DHCP as an enhancement to ns-3</li>
+	      <li>Students: GVS Tushaar, Ujjwal Pasupulety</li>
+              <li>Mentor: <a href="https://adeepkit01.github.io">Ankit Deepak</a> </li>
+	      <li>Abstract: Improving on the current implementation of DHCP in ns-3, the aim is to add the enhancement of
+		  including relays in a given network. It is advantageous to use the Dynamic Host Configuration Protocol (DHCP)
+		  as defined in RFC 2131 to assign customer premise host IP addresses in this environment.
+		  However, a number of security and scaling problems arise with such "public" DHCP use. RFC 3046 proposed
+		  relay-agent option that extends the set of DHCP options as defined in RFC 2132.
+
+		  The new option is called the Relay Agent Information option and is inserted by the DHCP relay agent when
+		  forwarding client-originated DHCP packets to a DHCP server. Servers recognizing the Relay Agent
+		  Information option may use the information to implement IP address or other parameter assignment policies. 
+		  The DHCP Server echoes the option back verbatim to the relay agent in server-to-client replies,
+		  and the relay agent strips the option before forwarding the reply to the client.
+	      </li>
+	      <li>Project Code: <a href="https://github.com/ujdcodr/dhcprelay">DHCP Relay Implementation in ns-3</a>
+	    </ul>
+      </section>
+    </div>    
+  </body>
+</html>
