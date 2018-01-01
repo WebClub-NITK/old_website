@@ -1,0 +1,10 @@
+var projects = [
+    {
+        "title":"",
+        "status":"",
+        "mentors":"",
+        "references":"",
+        "description":"",
+        "image_url":""
+    }
+]
