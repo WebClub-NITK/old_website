@@ -1,4 +1,36 @@
-var projects = [
+var projects = [	
+	{
+		"status":"past",
+		"title":"Hacktoberfest",
+		"description": "Hacktoberfest by Digital Ocean",
+		"mentors":"ABC",
+		"references":"",
+		"github_link": "https://github.com/WebClub-NITK/Hacktoberfest-2k17",
+		"image_url":"/images/hacktoberfest.jpg",
+		"tag":"Open Source"
+	},
+	{
+		"status":"ongoing",
+		"title":"LFU",
+		"description": "LFU Paper implementation",
+		"mentors":"XYZ",
+		"references":"",
+		"github_link": "https://github.com/WebClub-NITK/LFU",
+		"image_url":"/images/img_avatar1.png",
+		"tag":"Research"
+	},
+	{
+		"status":"ongoing",
+		"title":"MapReduce",
+		"description": "PWL talk on the paper MapReduce",
+		"mentors":"SIR",
+		"references":"",
+		"github_link" : "https://github.com/WebClub-NITK/MapReduce",
+		"image_url":"/images/img_avatar1.png",
+		"tag":"Research Paper"
+	}
+]
+/*var projects = [
     {
         "title":"",
         "status":"",
@@ -7,4 +39,4 @@ var projects = [
         "description":"",
         "image_url":""
     }
-]
+]*/
