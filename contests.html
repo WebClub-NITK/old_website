@@ -1,21 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-
+    <meta charset="UTF-8">
     <title>Web Club NITK Contests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/contests.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- contests data -->
+    <script src="data/contests.json"></script>
 </head>
-
-<body>
-
-    <header>
-    </header>
+<body >
 
 
-    <footer>
-    </footer>
+<!-- Main container -->
+<div class="container">
+
+    <!-- page title-->
+    <div class="pageTitle">
+        <div class="title">
+            Programming Contests
+        </div>
+    </div>
+
+    <div class="pageContent">
+        <!-- contests section -->
+        <div class="contests">
+            <div id="Jan" style="display: block">
+            </div>
+            <div id="Feb" style="display: none">
+            </div>
+            <div id="Mar" style="display: none">
+            </div>
+            <div id="Apr" style="display: none">
+            </div>
+            <div id="May" style="display: none">
+            </div>
+            <div id="Jun" style="display: none">
+            </div>
+            <div id="Jul" style="display: none">
+            </div>
+            <div id="Aug" style="display: none">
+            </div>
+            <div id="Sep" style="display: none">
+            </div>
+            <div id="Oct" style="display: none">
+            </div>
+            <div id="Nov" style="display: none">
+            </div>
+            <div id="Dec" style="display: none">
+            </div>
+        </div>
+
+
+        <!-- navigation  -->
+        <div class="nav">
+
+            <ul id="monthsTabs">
+                <li>Dec</li>
+                <li>Nov</li>
+                <li>Oct</li>
+                <li>Sept</li>
+                <li>Aug</li>
+                <li>Jul</li>
+                <li>Jun</li>
+                <li>May</li>
+                <li>Apr</li>
+                <li>Mar</li>
+                <li>Feb</li>
+                <li  class="active">Jan</li>
+            </ul>
+
+            <ul id="yearsTabs">
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="js/contests.js" type="text/javascript"></script>
 </body>
-
 </html>
