@@ -1,13 +1,101 @@
-var events = [
-    {
-        "name":"",
-        "start_date":"",
-        "end_date":"",
-        "venue":"",
-        "speakers":[
-            "",
-            "",
-            ""
-        ]
-    }
-]
+var events = {
+	"Jan": [],
+	"Feb": [],
+	"Mar": [],
+	"April": [],
+	"May": [],
+	"June": [],
+	"July": [],
+	"Aug": [],
+	"Sept": [
+		{
+			"timestamp": 1505194200,
+			"title": "Papers We Love",
+			"venue": "LHC-A",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1505386800,
+			"title": "Big Data Session",
+			"venue": "LHC-C",
+			"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1505445300,
+			"title": "Git &amp; GitHub",
+			"venue": "ISTE Seminar Hall",
+			"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+		},
+		{
+			"timestamp": 1505726100,
+			"title": "Big Data Sesson",
+			"venue": "LHC-C",
+			"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1504616100,
+			"title": "PWP",
+			"venue": "ISTE Seminar Hall",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1506603300,
+			"title": "Git &amp; GitHub",
+			"venue": "LHC-A",
+			"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+		},
+		{
+			"timestamp": 1505198700,
+			"title": "Big Data Session",
+			"venue": "LHC-C",
+			"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},		
+	],
+	"Oct": [
+		{
+			"timestamp": 1507290300,
+			"title": "Git &amp; GitHub",
+			"venue": "LHC-A",
+			"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+		},
+		{
+			"timestamp": 1508490000,
+			"title": "Big Data Session",
+			"venue": "Mining Seminar Hall",
+			"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1506917700,
+			"title": "Machine Learning &amp; Artificial Intelligence",
+			"venue": "LHC-C",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+	],
+	"Nov": [],
+	"Dec": [
+		{
+			"timestamp": 1513587600,
+			"title": "Git &amp; GitHub",
+			"venue": "LHC-C",
+			"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+		},
+		{
+			"timestamp": 1512906300,
+			"title": "Big Data Session",
+			"venue": "LHC-A",
+			"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1512437100,
+			"title": "PWP",
+			"venue": "ISTE Seminar Hall",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+		},
+		{
+			"timestamp": 1514187000,
+			"title": "Git &amp; GitHub",
+			"venue": "LHC-A",
+			"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+		},
+	],
+}

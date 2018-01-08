@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-
-    <title>Web Enthusiasts Club NITK</title>
+	<title>Events - Web Club NITK</title>
+	<!-- meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="css/events.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Inconsolata" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/events.js"></script>
+	<!-- JSON data -->
+	<script type="text/javascript" src="data/events.json"></script>
 </head>
-
 <body>
-
-    <header>
-    </header>
-
-
-    <footer>
-    </footer>
+	<div class="row">
+		<div id="main-head" class="d-none d-lg-block col-lg-5 order-lg-1"><div class="jumbotron"><h1 class="display-1">Events</h1></div></div>
+		<div id="m-main-head" class="d-lg-none d-xl-none align-items-center"><h1 class="display-4">Events</h1></div>
+		<div id="cal" class="col-lg-1 order-lg-3 row align-items-center">
+			<div class="col">
+				<div class="active">Dec</div>
+				<div>Nov</div>
+				<div>Oct</div>
+				<div>Sept</div>
+				<div>Aug</div>
+				<div>July</div>
+				<div>June</div>
+				<div>May</div>
+				<div>Apr</div>
+				<div>Mar</div>
+				<div>Feb</div>
+				<div>Jan</div>
+			</div>
+		</div>
+		<div id="event-cards" class="col-lg-6 order-lg-2"></div>
+	</div>
 </body>
-
 </html>

@@ -1,0 +1,251 @@
+body {
+	background-color: #272822;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+body > .row > div {
+	height: 100vh !important;
+}
+
+.jumbotron {
+	margin-top: 30px;
+	padding: 2rem 1rem;
+}
+
+#main-head {
+	background-image: url('../images/coding-back.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	padding: 20px;
+	padding-left: 35px;
+}
+
+#main-head > div > h1 {
+	text-align: right;
+}
+
+#cal > div > div {
+	color: #8D8E88;
+	cursor: pointer;
+	font-size: 1.5rem;
+	-webkit-transition: font-size 0.3s, color 0.3s; /* Safari */
+    transition: font-size 0.3s, color 0.3s;
+    margin-bottom: 3px;
+}
+
+#cal > div > div.hovered {
+	font-size: 2rem;
+	-webkit-transition: font-size 0.3s; /* Safari */
+    transition: font-size 0.3s;
+}
+
+#cal > div > div.active {
+	color: #DADBD5;
+	font-size: 2rem;
+}
+
+.row {
+	margin-right: 0px !important;
+}
+
+#event-cards {
+	padding: 0px;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+#event-cards > div:hover {
+	cursor: pointer;
+}
+
+#event-cards > div > h1 {
+	font-weight: bold;
+	font-size: 4rem;
+	margin-top: 2.5vh;
+}
+
+#event-cards > div > p {
+	font-size: 2rem;
+	padding-left: 5px;
+	margin-bottom: 0px;
+}
+
+#event-cards::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #DADBD5;
+}
+
+#event-cards::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #DADBD5;
+}
+
+#event-cards::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #8D8E88;
+}
+
+.event {
+	height: calc(100vh / 3);
+	padding: 3vh;
+}
+
+.no-events {
+	color: white;
+	text-align: center;
+	margin-top: 45vh;
+}
+
+.event-details {
+	position: fixed;
+	z-index: 200;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow-y: scroll;
+}
+
+#close-button {
+	position: absolute;
+	top: 2vh;
+	left: 3vh;
+	color: white;
+	font-size: 4rem;
+	cursor: pointer;
+}
+
+#event-details-title {
+	text-align: center;
+	margin-top: 13vh;
+	margin-bottom: 4vh;
+}
+
+#terminal-like {
+	background-color: rgb(222, 222, 222);
+	height: 60vh;
+	width: 60vw;
+	position: relative;
+	margin: auto;
+	border-radius: 15px;
+}
+
+#terminal-like > p {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#black-screen {
+	background-color: rgb(0, 0, 0);
+	height: 56vh;
+	width: 60vw;
+	position: absolute;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 4vh;
+	margin-bottom: 25px;
+}
+
+#terminal-text {
+	margin: 0;
+	font-family: 'Inconsolata', monospace;
+	color: rgb(255, 255, 255);
+	font-size: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+	html, body {
+		overflow: hidden;
+	}
+
+	#cal {
+		height: 10vh !important;
+		margin-left: 0px !important;
+		padding: 3px;
+		padding-left: 18px;
+	}
+
+	#cal > div {
+		max-height: 10vh;
+		overflow-x: auto;
+		overflow-y: hidden;
+		white-space: nowrap;
+		padding: 0px;
+	}
+
+	#cal > div > div {
+		display: inline-block;
+		padding: 3px;
+	}
+
+	#event-cards {
+		max-height: 76vh;
+	}
+
+	#event-cards > div > h1 {
+		margin-top: 0px;
+		font-size: 2rem;
+	}
+
+	#event-cards > div > p {
+		font-size: 1.5rem;
+	}
+
+	#event-cards > div {
+		padding: 15px;
+		height: 38vh;
+	}
+
+	.no-events {
+		margin-top: 25vh;
+		font-size: 2.4rem;
+	}
+
+	#m-main-head {
+		width: 100%;
+		height: 14vh !important;
+		color: white;
+		text-align: center;
+		padding-top: 3vh;
+	}
+
+	#terminal-like {
+		margin-left: 4vw;
+		margin-right: 4vw;
+		width: initial;
+	}
+
+	#terminal-like > p {
+		font-size: 1.4rem;
+		margin-bottom: 0;
+	}
+
+	#event-details-title {
+		font-size: 2.5rem;
+		margin-top: 7vh;
+	}
+
+	#black-screen {
+		width: initial;
+		height: initial;
+	}
+
+	#close-button {
+		top: 1vh;
+		left: 1vh;
+		font-size: 2rem;
+	}
+
+	#terminal-text {
+		font-size: 1rem;
+	}
+}
