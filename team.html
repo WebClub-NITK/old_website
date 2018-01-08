@@ -2,20 +2,98 @@
 <html>
 
 <head>
-
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-
     <title>Web Enthusiasts Club NITK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Include JQuery -->
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Include Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+    
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <script type="text/javascript" src="data/team.json"></script>
+    <script type="text/javascript" src="js/team.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/team.css" media="screen">
+
+
 </head>
 
 <body>
-
+    <!-- Import header.html here -->    
     <header>
+        <div id="header"></div>
     </header>
+    <br>
 
+    <!-- Post Bearers -->
+     <div class="container-fluid custom-posts">
+        <div class="container ">
+            <div class="display-post">
+                    Post Bearers
+                <hr>
+            </div>  
+            <div class="row" id="post-group">                   
+            </div>
+        </div>
+        <br>
+    </div>
 
+    <br>
+
+    <!-- Current Members -->
+    <div class="container-fluid custom-container1">
+            
+            <div class="container">
+                <div class="display-custom">
+                    Team Members
+                <hr class="">
+            </div>               
+                <br><br>            
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-fill" id="tab-list1" role="tablist">
+                </ul>                
+                <!-- Tab panes -->
+                <div class="tab-content" id="tab-panes1">
+                </div>
+                <br><br>     
+            </div>
+        </div>
+    
+        <br>
+        
+        <!-- Alumni Members -->
+        <div class="container-fluid custom-container2">
+                    
+            <div class="container">   
+            <div class="display-custom">
+                Alumni Members
+                <hr class="">
+            </div>           
+                <br><br>            
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-fill" id="tab-list2" role="tablist">
+                </ul>                
+                <!-- Tab panes -->
+                <div class="tab-content" id="tab-panes2">
+                </div>
+                <br><br>     
+            </div>
+        </div>
+    
+        
+            <br><br>
+
+    <!-- Import footer.html here -->    
     <footer>
+        <div id="footer"></div>
     </footer>
+
 </body>
 
 </html>
