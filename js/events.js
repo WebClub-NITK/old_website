@@ -34,11 +34,20 @@ function load_events(month, year) {
 		$('body').append(event_details);
 		$('.event-details').css({
 			'background-color': back_color,
-			'opacity': 1.0,
 		});
 		$("#close-button").click(function() {
-			$(".event-details").remove();
+			$(".event-details").css({
+				'opacity': 0.0,
+			});
+			setTimeout(function() {
+				$(".event-details").remove();
+			}, 500)
 		});
+		setTimeout(function() {
+			$('.event-details').css({
+				'opacity': 1.0,
+			});
+		}, 50);
 	});
 };
 
