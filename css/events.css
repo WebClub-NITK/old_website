@@ -126,6 +126,7 @@ body > .row > div {
 	text-align: center;
 	margin-top: 13vh;
 	margin-bottom: 4vh;
+	font-weight: 600;
 }
 
 #terminal-like {
@@ -135,6 +136,7 @@ body > .row > div {
 	position: relative;
 	margin: auto;
 	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
 }
 
 #terminal-like > p {
@@ -168,15 +170,15 @@ body > .row > div {
 	}
 
 	#cal {
-		height: 10vh !important;
+		height: 13vh !important;
 		margin-left: 0px !important;
-		padding: 3px;
-		padding-left: 18px;
+		padding-left: 15px;
+		margin-bottom: 2vh;
 	}
 
 	#cal > div {
-		max-height: 10vh;
-		overflow-x: auto;
+		max-height: 7vh !important;
+		overflow-x: auto !important;
 		overflow-y: hidden;
 		white-space: nowrap;
 		padding: 0px;
@@ -184,7 +186,16 @@ body > .row > div {
 
 	#cal > div > div {
 		display: inline-block;
-		padding: 3px;
+		padding-right: 3px;
+		margin-bottom: 0px;
+	}
+
+	#cal-years {
+		text-align: center;
+	}
+
+	#cal-months {
+		padding-left: 3px !important;
 	}
 
 	#event-cards {
@@ -212,10 +223,15 @@ body > .row > div {
 
 	#m-main-head {
 		width: 100%;
-		height: 14vh !important;
+		height: 9vh !important;
 		color: white;
 		text-align: center;
-		padding-top: 3vh;
+		font-size: 3rem;
+		padding-top: 7px;
+	}
+
+	#m-main-head > h1 {
+		margin-bottom: 0px;
 	}
 
 	#terminal-like {

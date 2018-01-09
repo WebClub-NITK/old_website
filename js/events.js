@@ -1,11 +1,11 @@
 var events_data;
-function load_events(month) {
+function load_events(month, year) {
 	var event_cards = "", event_card, tc, title, time, venue,
 		colors = ["#F92772", "#A7E22E", "#66D9EE"];
-	events_data = events[month];
+	events_data = events[year][month];
 	if (events_data.length === 0) {
 		console.log("hmm");
-		$("#event-cards").html('<h1 class="no-events display-4">No events for this month</h1>');
+		$("#event-cards").html('<h1 class="no-events display-4">No events at this time</h1>');
 		return;
 	}
 	events_data.sort(function(e1, e2) {
@@ -59,11 +59,16 @@ function timeConverter(UNIX_timestamp) {
 }
 
 $(document).ready(function() {
-	load_events($('#cal > div > div.active').text());
-	$('#cal > div > div').click(function() {
-		$('#cal > div > div').removeClass("active");
+	load_events($('#cal-months > div.active').text(), $('#cal-years > div.active').text());
+	$('#cal-months > div').click(function() {
+		$('#cal-months > div').removeClass("active");
 		$(this).addClass("active");
-		load_events($(this).text());
+		load_events($(this).text(), $('#cal-years > div.active').text());
+	});
+	$('#cal-years > div').click(function() {
+		$('#cal-years > div').removeClass("active");
+		$(this).addClass("active");
+		load_events($('#cal-months > div.active').text(), $(this).text());
 	});
 	var hover_div;
 	$('#cal > div > div').hover(function() {
