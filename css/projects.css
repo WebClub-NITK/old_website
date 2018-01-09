@@ -1,7 +1,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;   
-  background-color: #000;
+  background-color: #66D9EF;
 }
 .mypy{
   margin-top: 75px!important;
@@ -10,6 +10,7 @@ body{
 }
 .main-projects{
   padding-top: 10px;
+
 }
 
 .logo-image{
