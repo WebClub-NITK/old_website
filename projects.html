@@ -21,8 +21,10 @@
   		<a href="/index.html">Home</a>
   		<a href="/events.html">Events</a>
   		<a href="/team.html">Team</a>
-	</div>
-	<div class="container-fluid">
+	  </div>
+
+    <!-- Start page -->
+	  <div class="container-fluid">
   		<div class="row">
     		<div class="col-sm-3 col-md-6 col-lg-4 logo-image">
       			<div class="title-contents">
@@ -41,46 +43,82 @@
     			</p>
     		</div>
   		</div>
-	</div>
-	<div class="main-projects">
+	  </div>
+    <!-- End of start page -->
+	  <div class="main-projects">
   		<div class="col-md-12 text-center">
+        <!-- Pills for ongoing/past projects -->
     		<ul class="nav nav-pills center-pills">
       			<li class="active"><a data-toggle="pill" href="#ongoing">Ongoing Projects</a></li>
       			<li><a data-toggle="pill" href="#past">Past Projects</a></li>
     		</ul>
+        <!-- Pills end here -->
   		</div>
-  
-  		<div class="tab-content">    
-    		<div id="ongoing" class="tab-pane fade in active">
-      			<h3>Listing the ongoing projects taken up during the course 2017-2018</h3>
-      			<div class="row ongoing">
-      			
-      			</div>
-    		</div>
       
+  		<div class="tab-content">    
+        <!-- Content for ongoing tab -->
+    		<div id="ongoing" class="tab-pane fade in active">
+      		<br><br><br>
+          <div id="ongoingprojects" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators ongoing">
+
+            </ol>
+
+            <div class="carousel-inner ongoing" id="slideshow">
+
+            </div>
+
+            <a class="carousel-control-prev" href="#ongoingprojects" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#ongoingprojects" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    		</div>
+      <!-- Content for ongoing projects end here -->
+
+      <!-- Content for past projects start here -->
     		<div id="past" class="tab-pane fade">
-      			<h3>Listing the previous projects taken up by the team during the previous years</h3>
-      			<div class="row past">
-      		
-      			</div>
+          <br><br><br>
+            <div id="pastprojects" class="carousel slide" data-ride="carousel">
+
+              <ol class="carousel-indicators past">
+                
+              </ol>
+
+              <div class="carousel-inner past" id="slideshow">
+                
+              </div>
+
+ 
+              <a class="carousel-control-prev" href="#pastprojects" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#pastprojects" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
     		</div>
   		</div>
 
-			  <!-- Just for demo, remove once everything is setup -->
-			  <div class="container py-3">
+			  <!-- Demo card starts here -->
+        <!-- Just for demo remove once everything is done-->
+			  <!-- <div class="container mypy py-3">
 			    <div class="card">
 			      <div class="row ">
 			          <div class="col-md-4 mobile">
 			            <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
 			            <div class="bottom-left">LFU</div>
 			          </div>
-			          <div class="col-md-8 ">
+			          <div class="col-md-8">
 			            <div class="card-block">
 			              <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
 			              <span class="label label-default">Open Source</span>
 			              <br><br>
 			              <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-			              <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			               <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			              <div class="card-footer1">
 			                <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
 			              </div>
@@ -92,9 +130,117 @@
 			          </div>
 			      </div>
 			    </div>
-			  </div>
-			  <!-- Remove till here -->
-	</div>
+			  </div> -->
+			  <!-- Demo Card, Remove till here -->
+        
+        <!-- Carousel demo starts here -->
+        <!-- Just for demo remove once everything is done-->
+        <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" id="slideshow">
+            <div class="item active">
+              <div class="container mypy py-3">
+                <div class="card">
+                  <div class="row ">
+                    <div class="col-md-4 mobile">
+                      <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                      <div class="bottom-left">LFU</div>
+                    </div>
+                    <div class="col-md-8 ">
+                      <div class="card-block">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <span class="label label-default">Open Source</span>
+                        <br><br>
+                        <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="card-footer1">
+                          <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 desktop">
+                      <img src="../images/img_avatar1.png" class="w-100">
+                      <div class="bottom-left">LFU</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="container mypy py-3">
+                  <div class="card">
+                    <div class="row ">
+                        <div class="col-md-4 mobile">
+                          <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                        <div class="col-md-8 ">
+                          <div class="card-block">
+                            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                            <span class="label label-default">Open Source</span>
+                            <br><br>
+                            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <div class="card-footer1">
+                              <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 desktop">
+                          <img src="../images/img_avatar1.png" class="w-100">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="item">
+              <div class="container mypy py-3">
+                  <div class="card">
+                    <div class="row ">
+                        <div class="col-md-4 mobile">
+                          <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                        <div class="col-md-8 ">
+                          <div class="card-block">
+                            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                            <span class="label label-default">Open Source</span>
+                            <br><br>
+                            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <div class="card-footer1">
+                              <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 desktop">
+                          <img src="../images/img_avatar1.png" class="w-100">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+   
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left left-icon"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right right-icon"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> --> 
+      <!-- Demo Carousel remove till here -->
+    </div>
 </body>
   <script type="text/javascript" src="/js/projects.js"></script>
   <script type="text/javascript">

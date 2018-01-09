@@ -3,10 +3,15 @@ body{
   overflow-x: hidden;   
   background-color: #000;
 }
+.mypy{
+  margin-top: 75px!important;
+  margin-bottom: 75px!important;
+  padding: 65px!important;
+}
 .main-projects{
   padding-top: 10px;
-  background-color: #66D9EF;
 }
+
 .logo-image{
 
   background-blend-mode: multiply;
@@ -20,6 +25,16 @@ body{
   justify-content: center;
 }
 
+.left-icon{
+  position: relative;
+  right: 0;
+}
+
+.right-icon{
+  position: relative;
+  right: 0;
+}
+
 .title-contents {
   align-self: center;
 }
@@ -28,24 +43,28 @@ body{
     color: #fff;
     font-size: 3em;
     margin: 0;
+    font-weight: bold;
 }
 
 .title-contents h1 {
     color: #A6E22E;
     font-size: 5em;
     margin: 0;
+    font-weight: bold;
 }
 
 .logo-content h2{
   margin-top: 120px;
   margin-left: 40px;
-   color: #000;
-    font-size: 5em; 
+  color: #000;
+  font-size: 5em; 
+  margin-right: 40px;
 }
 .logo-content p{
   margin-left: 40px;
   color: #000;
-  font-size: 1.5em; 
+  font-size: 1.5em;
+  margin-right: 40px; 
 }
 
 .sidenav {
@@ -90,11 +109,12 @@ body{
   font-size: 30px;
 }
 .card {
-    background-color: #66D9EF;
+    background-color: white;
     box-shadow: 5px 14px 14px rgba(0,0,0,0.50),-4px -10px 14px rgba(0,0,0,0.50);
+
 }
 .card-block{
-  padding: 10px 10px 10px 10px;
+  padding: 25px;
 }
 .mobile{
   display: none;
@@ -132,11 +152,17 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .mobile{
-    display: block;
+      display: block;
   }
   .desktop{
-    display: none;
+      display: none;
   }
+  .mypy{
+      margin-top: 10px!important;
+      margin-bottom: 0px!important;
+      padding: 20px 20px!important;
+  }
+
 
   .logo-content h2{
     margin-top: 50px;
