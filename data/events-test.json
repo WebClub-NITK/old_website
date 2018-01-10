@@ -1,0 +1,29 @@
+[
+    {
+        "name": "string",
+        "start_date": "datetime",
+        "end_date": "datetime",
+        "venue": "string",
+        "speakers": ["array of strings"],
+        "description": ["array",  "of", "strings"],
+        "requirements": [""]
+    },
+    {
+        "name": "string",
+        "start_date": "datetime",
+        "end_date": "datetime",
+        "venue": "string",
+        "speakers": ["array of strings"],
+        "description": ["array of strings"],
+        "requirements": [""]
+    },
+    {
+        "name": "string",
+        "start_date": "datetime",
+        "end_date": "datetime",
+        "venue": "string",
+        "speakers": ["array of strings"],
+        "description": ["array of strings"],
+        "requirements": [""]
+    }
+]
