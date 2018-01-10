@@ -2,20 +2,62 @@
 <html>
 
 <head>
-
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-
     <title>Web Enthusiasts Club NITK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Include JQuery -->
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <script type="text/javascript" src="data/team.json"></script>
+    <script type="text/javascript" src="js/team.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/team.css" media="screen">
+
+
+
 </head>
 
 <body>
-
+    <!-- Import header.html here -->    
     <header>
+        <div id="header"></div>
     </header>
 
+<!-- Main container -->
+<div class="container">
 
+    <!-- page title-->
+    <div class="pageTitle">
+        <div class="title">
+            Our Team
+        </div>
+    </div>
+
+        <div class="pageContent">
+            <!-- contests section -->
+            
+            <div id="contests" class="contests">
+                
+            </div>
+        
+
+            <!-- navigation  -->
+            <div class="nav">
+                <ul id="monthsTabs">
+                </ul>
+            </div>
+        </div>
+    
+    
+    </div>
+
+    <!-- Import footer.html here -->    
     <footer>
+        <div id="footer"></div>
     </footer>
 </body>
-
 </html>
