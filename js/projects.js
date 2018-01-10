@@ -1,4 +1,4 @@
-    var colours=["#000","#66D9EF","#A6E22E","#FD971F","#fff","#F92672"];
+    var colours=["#66D9EF","#A6E22E","#FD971F","#fff","#F92672"];
     var i;
     var past_list=$('.carousel-indicators.past');
     var ongoing_list=$('.carousel-indicators.ongoing');
@@ -29,7 +29,7 @@
                                             </div>\
                                             <div class="col-md-8 ">\
                                               <div class="card-block">\
-                                                <h4 class="card-title">'+projects[i].title+'</h4>\
+                                                \
                                                 <span class="label label-default">Open Source</span>\
                                                 <br><br>\
                                                 <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>\
@@ -59,7 +59,7 @@
                                             </div>\
                                             <div class="col-md-8 ">\
                                               <div class="card-block">\
-                                                <h4 class="card-title">'+projects[i].title+'</h4>\
+                                                \
                                                 <span class="label label-default">Open Source</span>\
                                                 <br><br>\
                                                 <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>\
@@ -92,7 +92,7 @@
                       </div>\
                       <div class="col-md-8 ">\
                         <div class="card-block">\
-                          <h4 class="card-title">'+projects[i].title+'</h4>\
+                          \
                           <span class="label label-default">Open Source</span>\
                           <br><br>\
                           <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>\
@@ -123,7 +123,7 @@
                           </div>\
                           <div class="col-md-8 ">\
                             <div class="card-block">\
-                              <h4 class="card-title">'+projects[i].title+'</h4>\
+                              \
                               <span class="label label-default">Open Source</span>\
                               <br><br>\
                               <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>\
