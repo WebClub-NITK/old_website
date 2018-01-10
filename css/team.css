@@ -55,9 +55,8 @@ body{
 .contestLink:nth-child(4n+3){
     background-color: #FD971F;
 }
-
 .social{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     cursor: pointer;
     font-size: 20px;
     vertical-align: text-top;
@@ -67,7 +66,7 @@ body{
 }
   
 .github:hover {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 }  
 .envelope:hover {
@@ -333,15 +332,15 @@ div::-webkit-scrollbar-thumb {
     }
 
     #cardGroup0 .contestTitle{
-        padding-left: 100px;
+        padding-left: 105px;
         font-size: 18px;
     }
     .details {
-        padding-left: 100px;        
+        padding-left: 105px;        
         font-size: 14px;
     }
     #cardGroup0 .social{
-        font-size: 18px;    
+        font-size: 16px;    
     } 
     .profileButtons {
         font-size: 16px; 

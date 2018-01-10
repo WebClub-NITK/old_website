@@ -4,7 +4,6 @@ $(function(){
     $("#header").load("header.html");
     $("#footer").load("footer.html");
 
-
     // team.json variable names
     var fieldNames = {
         name        :"Name",
