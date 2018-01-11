@@ -1,5 +1,5 @@
 var events, selectedEvent = 0, currentPage = 0, loadedEvents = false;
-var SCROLL_DELTA = 100;
+var SCROLL_DELTA = 0;
 const colors = ['#FF1744', '#76FF03', '#64FFDA'];
 
 $(function () {
@@ -66,15 +66,35 @@ function handlePrev() {
         $('#bt-prev').css({ opacity: 0.2 });
     }
 }
-
 function enableScrollAnimation() {
-    $('body').on('wheel', handleScroll);
+    // $('body').on('wheel', function(e) {
+    //     if (x == null) {
+    //         x = setTimeout(function() {
+    //             handleScroll(e);
+    //         }, 100);
+    //     } else {
+    //         clearTimeout(x);
+    //     }
+    // });
+    $('body').on('wheel', scrollFunc);
+}
+
+var timeout;
+function scrollFunc(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (timeout !== undefined)
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+        handleScroll(e);
+        timeout = undefined;
+        // console.log(timeout === undefined);
+    }, 25);         
 }
 
 function handleScroll(e) {
     var ids = ['sec0', 'sec1', 'sec2'];
-    e.preventDefault();
-    e.stopPropagation();
+    
     if (e.originalEvent.deltaY < -SCROLL_DELTA) {
         // scroll down
         currentPage--;
@@ -82,17 +102,19 @@ function handleScroll(e) {
             currentPage = 0;
             return;
         }
-        console.log()
+        console.log('Hey')
         switch (currentPage) {
             case 0:
-                $('.upcoming-events-list').css({ transform: 'translateX(200%)' });
+                $('.upcoming-events-list').css({ transform: 'translateX(-100%)' });
                 // $('.events-title div').css({opacity: '0'});
                 $('.events-title h1, .events-title div, .events-title a').css({ opacity: '0' });
                 $('.events-title').css({ width: '32%', background: '#444' });
-                $('.hero-intro').css({ transform: 'translateX(100%)' });
+                $('.hero-intro p').css({opacity: '0'});
+                $('.hero-intro h1').css({opacity: '0'});                
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
-                    $('.hero-intro').css({ transform: 'translateX(0%)' });
+                    $('.hero-intro p').css({ opacity: '1' });
+                    $('.hero-intro h1').css({ opacity: '1' });
                     $('.upcoming-events-list').css({ transform: 'translateX(0%)' });
                     $('.events-title h1, .events-title div, .events-title a').css({ opacity: '1' });
                     $('.events-title').css({ width: '50%', background: '#2a2a2a' });
@@ -117,9 +139,11 @@ function handleScroll(e) {
             case 1:
                 $('.hero-image').css({ width: '100%', background: '#2a2a2a' });
                 $('.title-contents').css({ opacity: 0 });
-                $('.hero-intro').css({ transform: 'translateX(100%)' });
+                $('.hero-intro').css({ width: '45%' });
+                $('.hero-intro p').css({opacity: '0'});
+                $('.hero-intro h1').css({opacity: '0'});
                 if (loadedEvents) {
-                    $('.upcoming-events-list').css({ transform: 'translateX(100%)' })
+                    $('.upcoming-events-list').css({ transform: 'translateX(-100%)' })
                 }
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
@@ -136,7 +160,9 @@ function handleScroll(e) {
 
                     });
                     $('.title-contents').css({ opacity: 1 });
-                    $('.hero-intro').css({ transform: 'translateX(0%)' });
+                    $('.hero-intro').css({ width: 'calc(65% - 18em)' });
+                    $('.hero-intro p').css({opacity: '1'});
+                    $('.hero-intro h1').css({opacity: '1'});
                 }, 400);
                 break;
             case 2:
@@ -196,7 +222,7 @@ function getEnterAnimation(item, i) {
 
 function createEventCard(event, number) {
     const card = document.createElement('div');
-    card.style = "transform: translateX(100%)"
+    card.style = "transform: translateX(-100%)"
     card.className = "event";
 
     var title = document.createElement('div');
