@@ -23,7 +23,7 @@ section {
 .hero-image {
     z-index: 1;
     width: 100%;
-    background: url('http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg') no-repeat center center,
+    background: url('/images/coding-back.jpg') no-repeat center center,
                 #444;
     background-blend-mode: multiply;
     background-size: cover;

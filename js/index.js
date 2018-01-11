@@ -67,15 +67,6 @@ function handlePrev() {
     }
 }
 function enableScrollAnimation() {
-    // $('body').on('wheel', function(e) {
-    //     if (x == null) {
-    //         x = setTimeout(function() {
-    //             handleScroll(e);
-    //         }, 100);
-    //     } else {
-    //         clearTimeout(x);
-    //     }
-    // });
     $('body').on('wheel', scrollFunc);
 }
 
@@ -88,7 +79,6 @@ function scrollFunc(e) {
     timeout = setTimeout(() => {
         handleScroll(e);
         timeout = undefined;
-        // console.log(timeout === undefined);
     }, 25);         
 }
 
@@ -106,7 +96,6 @@ function handleScroll(e) {
         switch (currentPage) {
             case 0:
                 $('.upcoming-events-list').css({ transform: 'translateX(-100%)' });
-                // $('.events-title div').css({opacity: '0'});
                 $('.events-title h1, .events-title div, .events-title a').css({ opacity: '0' });
                 $('.events-title').css({ width: '32%', background: '#444' });
                 $('.hero-intro p').css({opacity: '0'});
@@ -122,10 +111,8 @@ function handleScroll(e) {
                 break;
             case 1:
                 $('.event-details').css({ transform: 'translateX(-100%)' });
-                // $('.upcoming-events').css({ transform: 'translateX(100%)' })
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
-                    // $('.upcoming-events').css({ transform: 'translateX(0%)' });
                 }, 500);
         }
     } else if (e.originalEvent.deltaY > SCROLL_DELTA) {
@@ -155,7 +142,7 @@ function handleScroll(e) {
                     }
                     $('.hero-image').css({
                         width: '45%',
-                        background: 'url("http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg") no-repeat center center, #444',
+                        background: 'url("/images/coding-back.jpg") no-repeat center center, #444',
                         backgroundSize: 'cover',
 
                     });
@@ -181,9 +168,9 @@ function handleScroll(e) {
 }
 
 function animatePastEvents() {
-
     $('.desc').text(events[events.length - 1 - selectedEvent].description);
     $('.title').text(events[events.length - 1 - selectedEvent].name);
+    $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
     $('.event-details').css({ transform: 'translateX(-100%)' });
     $('.event-details .image').css({ transform: 'translateX(-100%)' });
     setTimeout(function () {
