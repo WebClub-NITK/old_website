@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;   
+  background-color: #66D9EF;
+}
+.mypy{
+  margin-top: 75px!important;
+  margin-bottom: 75px!important;
+  padding: 65px!important;
+}
+.main-projects{
+  padding-top: 10px;
+
+}
+
+.logo-image{
+
+  background-blend-mode: multiply;
+  background-size: cover;
+  background: url('http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg'),
+                #444;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-icon{
+  position: relative;
+  right: 0;
+}
+
+.right-icon{
+  position: relative;
+  right: 0;
+}
+
+.title-contents {
+  align-self: center;
+}
+
+.title-contents h2 {
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.title-contents h1 {
+    color: #A6E22E;
+    font-size: 5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-content h2{
+  margin-top: 120px;
+  margin-left: 40px;
+  color: #000;
+  font-size: 5em; 
+  margin-right: 40px;
+}
+.logo-content p{
+  margin-left: 40px;
+  color: #000;
+  font-size: 1.5em;
+  margin-right: 40px; 
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.bottom-left{
+  position: absolute;
+  top: 8px;
+  left: 35px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card {
+    background-color: white;
+    box-shadow: 5px 14px 14px rgba(0,0,0,0.50),-4px -10px 14px rgba(0,0,0,0.50);
+
+}
+.card-block{
+  padding: 25px;
+}
+.mobile{
+  display: none;
+}
+
+.center-pills{
+  display: inline-block;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-text{
+  font-size: 19px;
+}
+.card-footer1{
+    font-size: 1em;
+    position: static;
+    bottom: : 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+
+}
+.link{
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 770px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .mobile{
+      display: block;
+  }
+  .desktop{
+      display: none;
+  }
+  .mypy{
+      margin-top: 10px!important;
+      margin-bottom: 0px!important;
+      padding: 20px 20px!important;
+  }
+
+
+  .logo-content h2{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 5em; 
+  }
+
+  .logo-content p{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 1.5em; 
+  }
+}

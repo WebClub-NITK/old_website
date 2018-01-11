@@ -54,8 +54,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-left: 6em;
-    padding-right: 12em; */
     z-index: -1;
 }
 
@@ -149,8 +147,6 @@ section {
     width: 35%;
     display: flex;
     z-index: 1;
-    /* flex-direction: column; */
-    /* justify-content: center; */
     align-content: center;
 }
 

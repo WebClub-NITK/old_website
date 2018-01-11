@@ -1,0 +1,373 @@
+/* Page body */
+body{
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+
+
+/* Container */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* page title division */
+.pageTitle{
+    width: 28%;
+    height: 100vh;
+    background: #212121;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    align-self: flex-end;
+    color: #ffffff;
+    padding: 340px 100px 50px 40px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.pageContent{
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contestLink:nth-child(4n+0){
+    background-color: #F92672;
+}
+.contestLink:nth-child(4n+1){
+    background-color: #A6E22E;
+}
+.contestLink:nth-child(4n+2){
+    background-color: #66D9EF;
+}
+.contestLink:nth-child(4n+3){
+    background-color: #FD971F;
+}
+.social{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    vertical-align: text-top;
+}
+.linkedin:hover {
+    color: #0077B5; 
+}
+  
+.github:hover {
+    color: #ffffff;
+    text-decoration: none;
+}  
+.envelope:hover {
+    color: #db3236; 
+    text-decoration: none;
+}
+
+/* contests division*/
+.contests {
+    width: 60%;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #212121;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.contestsSpace{
+    padding: 20px;
+    padding-left: 50px;
+
+    clear: both; 
+}
+
+.contestLink {
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+}
+
+.contestTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.profileButtons {
+    font-size: 20px;    
+    float: right;
+    padding: 0;
+}
+
+
+/* Post Bearers */
+#cardGroup0 .contestsSpace{
+    height: 100px;
+    padding: 0 0 0 0;
+}
+#cardGroup0 .contestTitle{
+    padding-left: 150px;
+    padding-top: 20px;
+    font-size: 22px;
+    overflow: visible;
+}
+
+.details {
+    font-size: 18px;
+    margin: 3px;
+    padding-left: 150px;
+}
+#cardGroup0 .social{
+    font-size: 20px;    
+}
+#cardGroup0 .profileButtons{
+    padding-top: 20px;
+    padding-right: 5px;    
+}
+.imgBox{
+    float: left;
+}
+.img{
+    left: 0px;
+    max-width: 100%;
+    height: 98px;
+}
+
+
+/* tab navigation */
+.nav{
+    width: 40%;
+    height: 100vh;
+    background: #212121;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left:10px;
+}
+
+#monthsTabs {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-content: center;
+    padding-left: 100px;
+}
+
+
+li {
+    padding: 5px;
+    color: #898989;
+    font-size: 22px;
+    transition: 0.4s;
+}
+
+li.active {
+    font-size: 26px;
+    color: white;
+}
+li:hover {
+    font-size: 26px;
+    color: white;
+}
+
+
+
+
+
+/* scrollbar change for chrome */
+div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #000000;
+}
+div::-webkit-scrollbar {
+    width: 6px;
+    background-color: #ffffff;
+}
+div::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+
+
+
+
+/* Media queries*/
+@media only screen and (max-width: 1278px) {
+
+    .title{
+        font-size: 35px;
+        margin: 0%;        
+    }
+
+    #monthsTabs{
+        padding-left: 60px;
+    }
+    
+
+    .contestTitle,.social{
+        font-size: 14px;
+    }
+    #cardGroup0 .contestTitle{
+        padding-left: 120px;
+        font-size: 20px;
+    }
+    .details {
+        padding-left: 120px;        
+        font-size: 16px;
+    }
+    #cardGroup0 .social{
+        font-size: 18px;    
+    }
+
+
+    li{
+        font-size: 22px;
+    }
+    li.active li:hover{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+
+    .pageTitle{
+        float: right;
+    }
+    .title{
+        font-size: 28px; 
+        padding: 340px 50px 50px 40px;
+    }
+    #monthsTabs{
+        padding-left: 40px;
+    }
+    .contestTitle,.social{
+        font-size: 15px;
+    }
+    
+    
+    li{
+        font-size: 18px;
+    }
+    li.active li:hover{
+        font-size: 25px;
+    }
+    .contestsSpace{
+        padding-left:15px;
+        padding-right:15px;
+    }
+}
+
+@media only screen and (max-width: 867px) {
+
+    body {
+        height: 100vh;
+        background-color: #212121;
+        overflow: auto;
+    }
+
+    .container{
+        flex-direction: column;
+        width: 100%;
+        padding:10px;
+    }
+
+    .pageTitle{
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 36px;
+        padding: 30px 0 30px 0;
+        text-align: center;
+    }
+
+    .pageContent{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+
+    .nav{
+        flex-direction: column-reverse;
+        width: 90%;
+        height: 20%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 0 0 0 0;
+        padding-left: 2.5%;
+    }
+
+    #monthsTabs {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        overflow: auto;
+        justify-content: flex-start;
+        align-content: flex-start;
+        padding: 5px 0 10px 0;
+    }
+
+    .contestTitle{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+
+    #cardGroup0 .contestTitle{
+        padding-left: 105px;
+        font-size: 18px;
+    }
+    .details {
+        padding-left: 105px;        
+        font-size: 14px;
+    }
+    #cardGroup0 .social{
+        font-size: 16px;    
+    } 
+    .profileButtons {
+        font-size: 16px; 
+        float: right;
+        padding-right: 0;
+    }
+    li{
+        font-size: 15px;
+    }
+    li.active, li:hover{
+        vertical-align: text-top;
+        font-size: 20px;
+    }
+    .contests{
+        width: 100%;
+        height: auto;
+    }
+
+    .contestsSpace{
+        padding: 20px;
+        padding-left: 30px;
+    }
+
+    .contestLink {
+        text-decoration: none;
+        color: black;
+        flex-direction: row;
+    }
+
+}

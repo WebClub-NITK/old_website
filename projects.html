@@ -1,21 +1,254 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="/css/projects.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <title>Web Club NITK by WebClub-NITK</title>
 
-    <title>Web Enthusiasts Club NITK</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/data/projects.json"></script>
 </head>
+  <body>
+    <div id="Sidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="/index.html">Home</a>
+  		<a href="/events.html">Events</a>
+  		<a href="/team.html">Team</a>
+	  </div>
 
-<body>
+    <!-- Start page -->
+	  <div class="container-fluid">
+  		<div class="row">
+    		<div class="col-sm-3 col-md-6 col-lg-4 logo-image">
+      			<div class="title-contents">
+        			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        			<h2>WE ARE</h2>
+       		 		<h1> WEB <br> CLUB</h1>
+        			<h2>NITK</h2>
+      			</div>
+    		</div>
+    		<div class="col-sm-9 col-md-6 col-lg-8 logo-content" style="background-color:#A6E22E;">
+      			<h2>Projects</h2>
+      			<p>
+			        Description regarding projects in WebClub
+			      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>
+			      Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    			</p>
+    		</div>
+  		</div>
+	  </div>
+    <!-- End of start page -->
+	  <div class="main-projects">
+  		<div class="col-md-12 text-center">
+        <!-- Pills for ongoing/past projects -->
+    		<ul class="nav nav-pills center-pills">
+      			<li class="active"><a data-toggle="pill" href="#ongoing">Ongoing Projects</a></li>
+      			<li><a data-toggle="pill" href="#past">Past Projects</a></li>
+    		</ul>
+        <!-- Pills end here -->
+  		</div>
+      
+  		<div class="tab-content">    
+        <!-- Content for ongoing tab -->
+    		<div id="ongoing" class="tab-pane fade in active">
+      		<br><br><br>
+          <div id="ongoingprojects" class="carousel slide" data-ride="carousel">
 
-    <header>
-    </header>
+            <ol class="carousel-indicators ongoing">
 
+            </ol>
 
-    <footer>
-    </footer>
+            <div class="carousel-inner ongoing" id="slideshow">
+
+            </div>
+
+            <a class="carousel-control-prev" href="#ongoingprojects" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#ongoingprojects" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    		</div>
+      <!-- Content for ongoing projects end here -->
+
+      <!-- Content for past projects start here -->
+    		<div id="past" class="tab-pane fade">
+          <br><br><br>
+            <div id="pastprojects" class="carousel slide" data-ride="carousel">
+
+              <ol class="carousel-indicators past">
+                
+              </ol>
+
+              <div class="carousel-inner past" id="slideshow">
+                
+              </div>
+
+ 
+              <a class="carousel-control-prev" href="#pastprojects" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#pastprojects" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            </div>
+    		</div>
+  		</div>
+
+			  <!-- Demo card starts here -->
+        <!-- Just for demo remove once everything is done-->
+			  <!--  <div class="container mypy py-3">
+			    <div class="card" style="background-color: #000;">
+			      <div class="row ">
+			          <div class="col-md-4 mobile">
+			            <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+			            <div class="bottom-left">LFU</div>
+			          </div>
+			          <div class="col-md-8">
+			            <div class="card-block">
+			              <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+			              <span class="label label-default">Open Source</span>
+			              <br><br>
+			              <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			              <div class="card-footer1">
+			                <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-4 desktop">
+			            <img src="../images/img_avatar1.png" class="w-100">
+			            <div class="bottom-left">LFU</div>
+			          </div>
+			      </div>
+			    </div>
+			  </div>  -->
+			  <!-- Demo Card, Remove till here -->
+        
+        <!-- Carousel demo starts here -->
+        <!-- Just for demo remove once everything is done-->
+        <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" id="slideshow">
+            <div class="item active">
+              <div class="container mypy py-3">
+                <div class="card">
+                  <div class="row ">
+                    <div class="col-md-4 mobile">
+                      <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                      <div class="bottom-left">LFU</div>
+                    </div>
+                    <div class="col-md-8 ">
+                      <div class="card-block">
+                        <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                        <span class="label label-default">Open Source</span>
+                        <br><br>
+                        <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="card-footer1">
+                          <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 desktop">
+                      <img src="../images/img_avatar1.png" class="w-100">
+                      <div class="bottom-left">LFU</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="container mypy py-3">
+                  <div class="card">
+                    <div class="row ">
+                        <div class="col-md-4 mobile">
+                          <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                        <div class="col-md-8 ">
+                          <div class="card-block">
+                            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                            <span class="label label-default">Open Source</span>
+                            <br><br>
+                            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <div class="card-footer1">
+                              <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 desktop">
+                          <img src="../images/img_avatar1.png" class="w-100">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="item">
+              <div class="container mypy py-3">
+                  <div class="card">
+                    <div class="row ">
+                        <div class="col-md-4 mobile">
+                          <img src="../images/img_avatar1.png" class="w-100" style="border-radius: 10px;">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                        <div class="col-md-8 ">
+                          <div class="card-block">
+                            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                            <span class="label label-default">Open Source</span>
+                            <br><br>
+                            <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <div class="card-footer1">
+                              <a href="https://github.com/salman-bhai" target="_blank"><button class="link">Link to Github <i class="fa fa-github fa-lg"></i></button></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 desktop">
+                          <img src="../images/img_avatar1.png" class="w-100">
+                          <div class="bottom-left">LFU</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+   
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left left-icon"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right right-icon"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> --> 
+      <!-- Demo Carousel remove till here -->
+    </div>
 </body>
+  <script type="text/javascript" src="/js/projects.js"></script>
+  <script type="text/javascript">
+    function openNav() {
+      document.getElementById("Sidenav").style.width = "250px";
+    }
 
+    function closeNav() {
+      document.getElementById("Sidenav").style.width = "0";
+    }
+  </script>
 </html>
