@@ -275,7 +275,7 @@ div::-webkit-scrollbar-thumb {
 
     .container{
         flex-direction: column;
-        width: 100%;
+        /* width: 9    0%; */
         padding:10px;
     }
 

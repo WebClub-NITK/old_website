@@ -145,7 +145,7 @@ $(function(){
 
         $('.cardGroup:not('+groupId+')').hide();//.hide();
         $(groupId).slideDown(500);//.show();    
-    
+        
         var $imgBox =$('.imgBox');
         if(tabId=='#tab0')
             $imgBox.show(1800);            
