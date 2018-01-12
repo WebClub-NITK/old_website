@@ -275,9 +275,28 @@ div::-webkit-scrollbar-thumb {
 
     .container{
         flex-direction: column;
-        /* width: 9    0%; */
-        padding:10px;
+        width: 100%;
+        /* padding:10px; */
     }
+
+    .contests{
+        width: 100%;
+        height: auto;
+    }
+    
+    scrollbar change for chrome
+    div::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #000000;
+    }
+    div::-webkit-scrollbar {
+        width: 0px;
+        background-color: #030303;
+    }
+    div::-webkit-scrollbar-thumb {
+        background-color: #000000;
+    }
+
 
     .pageTitle{
         height: auto;
@@ -348,10 +367,6 @@ div::-webkit-scrollbar-thumb {
     li.active, li:hover{
         vertical-align: text-top;
         font-size: 20px;
-    }
-    .contests{
-        width: 100%;
-        height: auto;
     }
 
     .contestsSpace{
