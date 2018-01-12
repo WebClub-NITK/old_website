@@ -75,11 +75,12 @@ function scrollFunc(e) {
     e.preventDefault();
     e.stopPropagation();
     if (timeout !== undefined)
-    clearTimeout(timeout);
-    timeout = setTimeout(() => {
+        clearTimeout(timeout);
+    else
         handleScroll(e);
+    timeout = setTimeout(() => {
         timeout = undefined;
-    }, 25);         
+    }, 100);
 }
 
 function handleScroll(e) {
