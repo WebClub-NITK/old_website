@@ -24,6 +24,7 @@
         "venue": "string",
         "speakers": ["array of strings"],
         "description": ["array of strings"],
-        "requirements": [""]
+        "requirements": [""],
+        "image": "/images/coding-back.jpg"
     }
 ]

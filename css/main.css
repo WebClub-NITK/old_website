@@ -5,7 +5,12 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
      overflow-x: hidden; 
+=======
+    background: #2a2a2a;
+    overflow-x: hidden;
+>>>>>>> aa55f63155aa491dd52994e0600080a88e63def6
 }
 
 section {
@@ -22,7 +27,7 @@ section {
 .hero-image {
     z-index: 1;
     width: 100%;
-    background: url('http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg') no-repeat center center,
+    background: url('/images/coding-back.jpg') no-repeat center center,
                 #444;
     background-blend-mode: multiply;
     background-size: cover;
@@ -53,8 +58,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-left: 6em;
-    padding-right: 12em; */
     z-index: -1;
 }
 
@@ -72,6 +75,7 @@ section {
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    background: #FF9800;
 }
 
 .events-title {
@@ -82,6 +86,7 @@ section {
     display: flex;
     flex-direction: column;
     color: #fff;
+    z-index: 10;
 }
 
 .events-title a {
@@ -105,6 +110,7 @@ section {
     justify-content: center;
     padding-left: 3em;
     font-size: 1.2em;
+    z-index: 1;
 }
 
 .event .title {
@@ -136,6 +142,7 @@ section {
 .event-details {
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
 }
 
 .event-details .content {
@@ -144,8 +151,6 @@ section {
     width: 35%;
     display: flex;
     z-index: 1;
-    /* flex-direction: column; */
-    /* justify-content: center; */
     align-content: center;
 }
 

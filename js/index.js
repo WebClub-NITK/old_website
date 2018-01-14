@@ -1,5 +1,5 @@
 var events, selectedEvent = 0, currentPage = 0, loadedEvents = false;
-var SCROLL_DELTA = 100;
+var SCROLL_DELTA = 0;
 const colors = ['#FF1744', '#76FF03', '#64FFDA'];
 
 $(function () {
@@ -66,15 +66,26 @@ function handlePrev() {
         $('#bt-prev').css({ opacity: 0.2 });
     }
 }
-
 function enableScrollAnimation() {
-    $('body').on('wheel', handleScroll);
+    $('body').on('wheel', scrollFunc);
+}
+
+var timeout;
+function scrollFunc(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (timeout !== undefined)
+        clearTimeout(timeout);
+    else
+        handleScroll(e);
+    timeout = setTimeout(() => {
+        timeout = undefined;
+    }, 100);
 }
 
 function handleScroll(e) {
     var ids = ['sec0', 'sec1', 'sec2'];
-    e.preventDefault();
-    e.stopPropagation();
+    
     if (e.originalEvent.deltaY < -SCROLL_DELTA) {
         // scroll down
         currentPage--;
@@ -82,17 +93,18 @@ function handleScroll(e) {
             currentPage = 0;
             return;
         }
-        console.log()
+        console.log('Hey')
         switch (currentPage) {
             case 0:
-                $('.upcoming-events-list').css({ transform: 'translateX(200%)' });
-                // $('.events-title div').css({opacity: '0'});
+                $('.upcoming-events-list').css({ transform: 'translateX(-100%)' });
                 $('.events-title h1, .events-title div, .events-title a').css({ opacity: '0' });
                 $('.events-title').css({ width: '32%', background: '#444' });
-                $('.hero-intro').css({ transform: 'translateX(100%)' });
+                $('.hero-intro p').css({opacity: '0'});
+                $('.hero-intro h1').css({opacity: '0'});                
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
-                    $('.hero-intro').css({ transform: 'translateX(0%)' });
+                    $('.hero-intro p').css({ opacity: '1' });
+                    $('.hero-intro h1').css({ opacity: '1' });
                     $('.upcoming-events-list').css({ transform: 'translateX(0%)' });
                     $('.events-title h1, .events-title div, .events-title a').css({ opacity: '1' });
                     $('.events-title').css({ width: '50%', background: '#2a2a2a' });
@@ -100,10 +112,8 @@ function handleScroll(e) {
                 break;
             case 1:
                 $('.event-details').css({ transform: 'translateX(-100%)' });
-                // $('.upcoming-events').css({ transform: 'translateX(100%)' })
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
-                    // $('.upcoming-events').css({ transform: 'translateX(0%)' });
                 }, 500);
         }
     } else if (e.originalEvent.deltaY > SCROLL_DELTA) {
@@ -117,9 +127,11 @@ function handleScroll(e) {
             case 1:
                 $('.hero-image').css({ width: '100%', background: '#2a2a2a' });
                 $('.title-contents').css({ opacity: 0 });
-                $('.hero-intro').css({ transform: 'translateX(100%)' });
+                $('.hero-intro').css({ width: '45%' });
+                $('.hero-intro p').css({opacity: '0'});
+                $('.hero-intro h1').css({opacity: '0'});
                 if (loadedEvents) {
-                    $('.upcoming-events-list').css({ transform: 'translateX(100%)' })
+                    $('.upcoming-events-list').css({ transform: 'translateX(-100%)' })
                 }
                 setTimeout(function () {
                     document.getElementById(ids[currentPage]).scrollIntoView(true);
@@ -131,12 +143,14 @@ function handleScroll(e) {
                     }
                     $('.hero-image').css({
                         width: '45%',
-                        background: 'url("http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg") no-repeat center center, #444',
+                        background: 'url("/images/coding-back.jpg") no-repeat center center, #444',
                         backgroundSize: 'cover',
 
                     });
                     $('.title-contents').css({ opacity: 1 });
-                    $('.hero-intro').css({ transform: 'translateX(0%)' });
+                    $('.hero-intro').css({ width: 'calc(65% - 18em)' });
+                    $('.hero-intro p').css({opacity: '1'});
+                    $('.hero-intro h1').css({opacity: '1'});
                 }, 400);
                 break;
             case 2:
@@ -155,9 +169,9 @@ function handleScroll(e) {
 }
 
 function animatePastEvents() {
-
     $('.desc').text(events[events.length - 1 - selectedEvent].description);
     $('.title').text(events[events.length - 1 - selectedEvent].name);
+    $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
     $('.event-details').css({ transform: 'translateX(-100%)' });
     $('.event-details .image').css({ transform: 'translateX(-100%)' });
     setTimeout(function () {
@@ -196,7 +210,7 @@ function getEnterAnimation(item, i) {
 
 function createEventCard(event, number) {
     const card = document.createElement('div');
-    card.style = "transform: translateX(100%)"
+    card.style = "transform: translateX(-100%)"
     card.className = "event";
 
     var title = document.createElement('div');
