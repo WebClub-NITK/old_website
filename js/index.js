@@ -1,8 +1,13 @@
 var events, selectedEvent = 0,
     currentPage = 0,
     loadedEvents = false;
-var SCROLL_DELTA = 0;
+var SCROLL_DELTA = 0,
+    LEFT_KEY = 37,
+    UP_KEY = 38,
+    RIGHT_KEY = 39,
+    DOWN_KEY = 40;
 const colors = ['#FF1744', '#76FF03', '#64FFDA'];
+const ids = ['sec0', 'sec1', 'sec2'];
 
 $(function () {
     var isChrome = !!window.chrome && !!window.chrome.webstore;
@@ -44,14 +49,14 @@ function animateHead() {
             paddingRight: '12em'
         });
         $('.hero-intro p').css({
-            display: 'block'}
-        );
-        
+            display: 'block'
+        });
+
         $('.hero-intro h1').css({
             display: 'block',
         });
 
-        setTimeout(function(){
+        setTimeout(function () {
             $('.hero-intro p').css({
                 opacity: '1'
             });
@@ -70,8 +75,8 @@ function handleNext() {
         });
     }
     if (selectedEvent < 2) {
-        animatePastEvents();
         selectedEvent++;
+        animatePastEvents();
     }
     if (selectedEvent == 2) {
         $('#bt-next').css({
@@ -87,8 +92,8 @@ function handlePrev() {
         });
     }
     if (selectedEvent > 0) {
-        animatePastEvents();
         selectedEvent--;
+        animatePastEvents();
     }
     if (selectedEvent == 0) {
         $('#bt-prev').css({
@@ -99,6 +104,165 @@ function handlePrev() {
 
 function enableScrollAnimation() {
     $('body').on('wheel', scrollFunc);
+    $('body').keydown(handleKeyPress);
+}
+
+function handleKeyPress(e) {
+    switch (e.keyCode) {
+        case UP_KEY:
+            e.preventDefault();
+            e.stopPropagation();
+            currentPage--;
+            if (currentPage < 0) {
+                currentPage = 0;
+                return;
+            }
+            switch (currentPage) {
+                case 0:
+                    $('.upcoming-events-list').css({
+                        transform: 'translateX(-100%)'
+                    });
+                    $('.events-title h1, .events-title div, .events-title a').css({
+                        opacity: '0'
+                    });
+                    $('.events-title').css({
+                        width: '32%',
+                        background: '#444'
+                    });
+                    $('.hero-intro p').css({
+                        opacity: '0'
+                    });
+                    $('.hero-intro h1').css({
+                        opacity: '0'
+                    });
+                    setTimeout(function () {
+                        document.getElementById(ids[currentPage]).scrollIntoView(true);
+                        $('.hero-intro p').css({
+                            opacity: '1'
+                        });
+                        $('.hero-intro h1').css({
+                            opacity: '1'
+                        });
+                        $('.upcoming-events-list').css({
+                            transform: 'translateX(0%)'
+                        });
+                        $('.events-title h1, .events-title div, .events-title a').css({
+                            opacity: '1'
+                        });
+                        $('.events-title').css({
+                            width: '50%',
+                            background: '#2a2a2a'
+                        });
+                    }, 400);
+                    break;
+                case 1:
+                    $('.event-details').css({
+                        transform: 'translateX(-100%)'
+                    });
+                    $('.upcoming-events').css({
+                        opacity: '0'
+                    });
+                    setTimeout(function () {
+                        document.getElementById(ids[currentPage]).scrollIntoView(true);
+                        $('.upcoming-events').css({
+                            opacity: '1'
+                        });
+                    }, 500);
+            }
+            break;
+
+        case DOWN_KEY:
+            e.preventDefault();
+            e.stopPropagation();
+            currentPage++;
+            if (currentPage > 2) {
+                currentPage = 2;
+                return;
+            }
+            switch (currentPage) {
+                case 1:
+                    $('.hero-image').css({
+                        width: '100%',
+                        background: '#2a2a2a'
+                    });
+                    $('.title-contents').css({
+                        opacity: 0
+                    });
+                    $('.hero-intro').css({
+                        width: '45%'
+                    });
+                    $('.hero-intro p').css({
+                        opacity: '0'
+                    });
+                    $('.hero-intro h1').css({
+                        opacity: '0'
+                    });
+                    if (loadedEvents) {
+                        $('.upcoming-events-list').css({
+                            transform: 'translateX(-100%)'
+                        })
+                    }
+                    setTimeout(function () {
+                        document.getElementById(ids[currentPage]).scrollIntoView(true);
+                        if (!loadedEvents) {
+                            animateEvents();
+                            loadedEvents = true;
+                        } else {
+                            $('.upcoming-events-list').css({
+                                transform: 'translateX(0%)'
+                            });
+                        }
+                        $('.hero-image').css({
+                            width: '45%',
+                            background: 'url("/images/coding-back.jpg") no-repeat center center, #444',
+                            backgroundSize: 'cover',
+
+                        });
+                        $('.title-contents').css({
+                            opacity: 1
+                        });
+                        $('.hero-intro').css({
+                            width: 'calc(65% - 18em)'
+                        });
+                        $('.hero-intro p').css({
+                            opacity: '1'
+                        });
+                        $('.hero-intro h1').css({
+                            opacity: '1'
+                        });
+                    }, 400);
+                    break;
+                case 2:
+                    $('.upcoming-events').css({
+                        transform: 'translateX(100%)'
+                    });
+                    $('.event-details').css({
+                        transform: 'translateX(-100%)'
+                    });
+
+                    setTimeout(function () {
+                        document.getElementById(ids[currentPage]).scrollIntoView(true);
+                        $('.upcoming-events').css({
+                            transform: 'translateX(0%)'
+                        });
+                        animatePastEvents();
+                    }, 400);
+
+                    break;
+            }
+            break;
+        case LEFT_KEY:
+            if (currentPage === 2) {
+                handlePrev();
+            }
+            break;
+
+        case RIGHT_KEY:
+            if (currentPage === 2) {
+                handleNext();
+            }
+            break;
+    }
 }
 
 var timeout;
@@ -116,16 +280,14 @@ function scrollFunc(e) {
 }
 
 function handleScroll(e) {
-    var ids = ['sec0', 'sec1', 'sec2'];
 
     if (e.originalEvent.deltaY < -SCROLL_DELTA) {
-        // scroll down
+        // scroll up
         currentPage--;
         if (currentPage < 0) {
             currentPage = 0;
             return;
         }
-        console.log('Hey')
         switch (currentPage) {
             case 0:
                 $('.upcoming-events-list').css({
@@ -179,7 +341,7 @@ function handleScroll(e) {
                 }, 500);
         }
     } else if (e.originalEvent.deltaY > SCROLL_DELTA) {
-        // scroll up
+        // scroll down
         currentPage++;
         if (currentPage > 2) {
             currentPage = 2;
@@ -262,7 +424,6 @@ function handleScroll(e) {
 function animatePastEvents() {
     $('.desc').text(events[events.length - 1 - selectedEvent].description);
     $('.title').text(events[events.length - 1 - selectedEvent].name);
-    $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
     $('.event-details').css({
         transform: 'translateX(-100%)'
     });
@@ -281,6 +442,7 @@ function animatePastEvents() {
         $('.event-details .image').css({
             transform: 'translateX(0%)'
         });
+        $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
     }, 1000);
 }
 
@@ -289,7 +451,7 @@ function animateEvents() {
         events = JSON.parse(response);
 
         for (var i = 0; i < 3; i++) {
-            event = createEventCard(events[i], i);
+            event = createEventCard(events[i]);
             $('.upcoming-events-list').append(event);
         }
 
@@ -299,7 +461,6 @@ function animateEvents() {
             var enterAnimation = getEnterAnimation(items[i], i);
             setTimeout(enterAnimation, (i + 1) * 300);
         }
-        animatePastEvents();
     });
 }
 
@@ -309,14 +470,14 @@ function getEnterAnimation(item, i) {
     }
 }
 
-function createEventCard(event, number) {
+function createEventCard(event) {
     const card = document.createElement('div');
     card.style = "transform: translateX(-100%)"
     card.className = "event";
 
     var title = document.createElement('div');
-    title.className = "title";
-    title.innerText = event.title;
+    title.className = "list-title";
+    title.innerText = event.name;
     card.appendChild(title);
 
     var venue = document.createElement('div');

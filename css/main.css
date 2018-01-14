@@ -111,7 +111,7 @@ section {
     z-index: 1;
 }
 
-.event .title {
+.event .list-title {
     font-size: 2.5em;
     font-weight: bold;
 }
