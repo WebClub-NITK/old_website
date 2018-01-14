@@ -20,14 +20,52 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"> -->
 
 </head>
 
-<body>
+
+    
+
+<body >
+
+
+
     <section class="hero" id="sec0">
         <div class="hero-image">
+            <header>
+
+                <nav class='header-img'>
+                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openNav()">
+                    
+                </nav>
+                 <nav class='header'>
+                    
+                    WEB CLUB NITK
+
+                </nav>
+                <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+                  <!-- Overlay content -->
+                  <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="contests.html">CONTESTS</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="team.html">TEAM</a>
+                  </div>
+
+                </div>
+
+            </header>
+
+
+
             <div class="title-contents">
                 <h2>WE ARE</h2>
                 <h1>WEB <br> CLUB</h1>
@@ -70,9 +108,251 @@
             </a>
         </div>
         <img src="http://www.gettingsmart.com/wp-content/uploads/2017/06/Program-Code-Feature-Image.jpg" alt="" class="image">
+
+
     </section>
+
+    <footer>
+        
+        <section id='footer'>
+
+            <h1 class='footer-heading' >WEB CLUB NITK</h1>
+            <div class='fb-git footer-heading'>
+                <a href="http://www.facebook.com" style="color: black;"><i class="fa fa-facebook"></i></a>&nbsp&nbsp
+                <a href="http://github.com" style="color: black;"><i class='fa fa-github'></i></a>
+            </div>
+            <div class='footer-nav'>
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="contests.html">CONTESTS</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="team.html">TEAM</a>
+            </div>
+
+        </section>
+        
+
+
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            
+            $(".overlay").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
+                function() {
+                     //doSomething
+                    
+                    $("#menu-pic").attr('src','images/close.svg');
+                    $("#menu-pic").css("z-index",2);
+                    $("#menu-pic").attr('onclick', "closeNav()");
+                    $("body").css("overflow-y", "hidden");
+                    // $('body').on({
+                    // 'touchmove': function(e) {
+
+                    // e.preventDefault();
+                    // e.stopPropagation();
+                    // }
+                    // });
+                });
+            
+        }
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            
+
+            $(".overlay").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
+                function() {
+                     //doSomething
+                    
+                    $("#menu-pic").attr('src','images/menu.svg');
+                    $("#menu-pic").css("z-index",0);
+                    $("#menu-pic").attr('onclick', "openNav()");
+                    $("body").css("overflow-y", "scroll");
+                    
+                });
+
+
+           
+        }
+
+
+
+    </script>
 </body>
+
+
+<style type="text/css">
+
+
+    .header {
+        writing-mode: vertical-rl;
+        float: left;
+        width: 1em
+        margin: 0;
+        padding: 3px;
+        position: absolute;
+        left:0;
+        top: 5em;
+        color: #FF9800;
+        font-size: 2em;
+        font-weight: bold;
+        min-height: 500px;
+   
+
+    }
+    .header-img {
+        
+        float: left;
+        width: 1em
+        margin: 0;
+        position: absolute;
+        /*left:.2em;*/
+        padding: 12px;
+        top: .5em;
+        color: #FF9800;
+        font-size: 2em;
+   
+
+    }
+
+    .menu-pic {
+        position: absolute;
+        z-index: 0;
+        width: 1em;
+
+    }
+
+    .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    background: #2a2a2a;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    }
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 15%; /* 25% from the top */
+    left: 15%;
+    width: 100%; /* 100% width */
+    color: #FF9800;
+    /*text-align: center;  Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    font-weight: bold;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    
+    color: #FF9800;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+}
+
+
+#footer {
+    padding: 0;
+    margin: 0;
+    height: 14em;
+    background: #FF9800;
+    width: 100%;
+}
+
+.footer-heading {
+
+    position: relative;
+    margin: 0px;
+    top: 2em;
+    left: 3em;
+    font-size: 2em;
+}
+
+.footer-nav {
+
+    float: right; 
+    position: relative;
+    right: 4em;
+    text-align: right;
+    bottom: 2em;
+}
+
+.footer-nav a {
+
+    padding: 4px;
+    text-decoration: none;
+    /*font-size: 36px;*/
+    font-weight: bold;
+    color: black;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+
+}
+    
+
+@media only screen and (max-width: 800px) {
+
+    .header {
+        display: none;
+    }
+
+    h1.footer-heading {
+        display: none;
+    }
+
+    .fb-git {
+        position: relative;
+        top: 3em;
+        left: 2em;
+    }
+
+    .footer-nav{
+
+        top: .9em;
+    }
+}
+
+
+</style>
 
 </html>
