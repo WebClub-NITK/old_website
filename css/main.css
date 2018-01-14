@@ -5,12 +5,8 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
-     overflow-x: hidden; 
-=======
     background: #2a2a2a;
     overflow-x: hidden;
->>>>>>> aa55f63155aa491dd52994e0600080a88e63def6
 }
 
 section {

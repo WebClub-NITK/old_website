@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/header-footer.css">
     <!-- <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"> -->
 
@@ -41,7 +42,7 @@
             <header>
 
                 <nav class='header-img'>
-                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openNav()">
+                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
                     
                 </nav>
                  <nav class='header'>
@@ -52,7 +53,7 @@
                 <div id="myNav" class="overlay">
 
   <!-- Button to close the overlay navigation -->
-                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a> -->
 
                   <!-- Overlay content -->
                   <div class="overlay-content">
@@ -141,56 +142,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
 
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-            
-            $(".overlay").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
-                function() {
-                     //doSomething
-                    
-                    $("#menu-pic").attr('src','images/close.svg');
-                    $("#menu-pic").css("z-index",2);
-                    $("#menu-pic").attr('onclick', "closeNav()");
-                    $("body").css("overflow-y", "hidden");
-                    // $('body').on({
-                    // 'touchmove': function(e) {
-
-                    // e.preventDefault();
-                    // e.stopPropagation();
-                    // }
-                    // });
-                });
-            
-        }
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-            
-
-            $(".overlay").on('transitionend webkitTransitionEnd oTransitionEnd otransitionend MSTransitionEnd', 
-                function() {
-                     //doSomething
-                    
-                    $("#menu-pic").attr('src','images/menu.svg');
-                    $("#menu-pic").css("z-index",0);
-                    $("#menu-pic").attr('onclick', "openNav()");
-                    $("body").css("overflow-y", "scroll");
-                    
-                });
-
-
-           
-        }
-
-
-
-    </script>
+    <script src='/js/header.js'></script>
 </body>
 
 
-<style type="text/css">
+<!-- <style type="text/css">
 
 
     .header {
@@ -356,6 +312,6 @@
 }
 
 
-</style>
+</style> -->
 
 </html>
