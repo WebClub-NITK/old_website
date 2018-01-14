@@ -181,22 +181,29 @@ function handleKeyPress(e) {
             }
             switch (currentPage) {
                 case 1:
-                    $('.hero-image').css({
-                        width: '100%',
-                        background: '#2a2a2a'
-                    });
-                    $('.title-contents').css({
-                        opacity: 0
-                    });
-                    $('.hero-intro').css({
-                        width: '45%'
-                    });
+
+                    setTimeout(function () {
+                        $('.hero-image').css({
+                            width: '100%',
+                            background: '#2a2a2a'
+                        });
+                        $('.title-contents').css({
+                            opacity: 0
+                        });
+                        $('.hero-intro').css({
+                            width: '45%'
+                        });
+
+                    }, 400);
+
                     $('.hero-intro p').css({
                         opacity: '0'
                     });
                     $('.hero-intro h1').css({
                         opacity: '0'
                     });
+
+
                     if (loadedEvents) {
                         $('.upcoming-events-list').css({
                             transform: 'translateX(-100%)'
@@ -230,7 +237,7 @@ function handleKeyPress(e) {
                         $('.hero-intro h1').css({
                             opacity: '1'
                         });
-                    }, 400);
+                    }, 800);
                     break;
                 case 2:
                     $('.upcoming-events').css({
@@ -349,22 +356,28 @@ function handleScroll(e) {
         }
         switch (currentPage) {
             case 1:
-                $('.hero-image').css({
-                    width: '100%',
-                    background: '#2a2a2a'
-                });
-                $('.title-contents').css({
-                    opacity: 0
-                });
-                $('.hero-intro').css({
-                    width: '45%'
-                });
+                setTimeout(function () {
+                    $('.hero-image').css({
+                        width: '100%',
+                        background: '#2a2a2a'
+                    });
+                    $('.title-contents').css({
+                        opacity: 0
+                    });
+                    $('.hero-intro').css({
+                        width: '45%'
+                    });
+
+                }, 400);
+
                 $('.hero-intro p').css({
                     opacity: '0'
                 });
                 $('.hero-intro h1').css({
                     opacity: '0'
                 });
+
+
                 if (loadedEvents) {
                     $('.upcoming-events-list').css({
                         transform: 'translateX(-100%)'
@@ -398,7 +411,7 @@ function handleScroll(e) {
                     $('.hero-intro h1').css({
                         opacity: '1'
                     });
-                }, 400);
+                }, 800);
                 break;
             case 2:
                 $('.upcoming-events').css({
