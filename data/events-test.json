@@ -1,27 +1,28 @@
 [
     {
-        "name": "string",
+        "name": "Event 1",
         "start_date": "datetime",
         "end_date": "datetime",
-        "venue": "string",
+        "venue": "Venue 1",
         "speakers": ["array of strings"],
         "description": ["array",  "of", "strings"],
         "requirements": [""]
     },
     {
-        "name": "string",
+        "name": "Event 2",
         "start_date": "datetime",
         "end_date": "datetime",
-        "venue": "string",
+        "venue": "Venue 2",
         "speakers": ["array of strings"],
         "description": ["array of strings"],
-        "requirements": [""]
+        "requirements": [""],
+        "image": "/images/close.svg"        
     },
     {
-        "name": "string",
+        "name": "Event 3",
         "start_date": "datetime",
         "end_date": "datetime",
-        "venue": "string",
+        "venue": "Venue 3",
         "speakers": ["array of strings"],
         "description": ["array of strings"],
         "requirements": [""],

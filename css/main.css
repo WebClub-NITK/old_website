@@ -60,11 +60,13 @@ section {
 .hero-intro h1 {
     font-size: 2.5em;
     display: none;
+    opacity: 0;
 }
 
 .hero-intro p {
     font-size: 1.5em;
     display: none;
+    opacity: 0;
 }
 
 .upcoming-events {
@@ -109,7 +111,7 @@ section {
     z-index: 1;
 }
 
-.event .title {
+.event .list-title {
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -208,11 +210,13 @@ section {
     .hero-intro h1 {
         font-size: 2.5em;
         display: block;
+        opacity: 1;
     }
     
     .hero-intro p {
         font-size: 1.5em;
         display: block;
+        opacity: 1;
     }
     
 
