@@ -9,26 +9,61 @@
   <link rel="stylesheet" type="text/css" href="/css/projects.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/header-footer.css">
   <title>Web Club NITK by WebClub-NITK</title>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/data/projects.json"></script>
+  <script type="text/javascript" src='/js/header.js'></script>
 </head>
+
   <body>
-    <div id="Sidenav" class="sidenav">
+    <!-- <div id="Sidenav" class="sidenav">
   		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   		<a href="/index.html">Home</a>
   		<a href="/events.html">Events</a>
   		<a href="/team.html">Team</a>
-	  </div>
+	  </div> -->
 
     <!-- Start page -->
 	  <div class="container-fluid">
   		<div class="row">
     		<div class="col-sm-3 col-md-6 col-lg-4 logo-image">
+
+            <header>
+
+                <nav class='header-img'>
+                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
+                    
+                </nav>
+                 <!-- <nav class='header'>
+                    
+                    WEB CLUB NITK
+
+                </nav> -->
+                <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+                  <!-- Overlay content -->
+                  <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="contests.html">CONTESTS</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="team.html">TEAM</a>
+                  </div>
+
+                </div>
+
+            </header>
+
+
+
       			<div class="title-contents">
-        			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        			<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
         			<h2>WE ARE</h2>
        		 		<h1> WEB <br> CLUB</h1>
         			<h2>NITK</h2>
@@ -240,6 +275,28 @@
         </div> --> 
       <!-- Demo Carousel remove till here -->
     </div>
+    <footer>
+        
+        <section id='footer' style="height: 15em">
+
+            <h1 class='footer-heading' >WEB CLUB NITK</h1>
+            <div class='fb-git footer-heading'>
+                <a href="http://www.facebook.com" style="color: black;"><i class="fa fa-facebook"></i></a>&nbsp&nbsp
+                <a href="http://github.com" style="color: black;"><i class='fa fa-github'></i></a>
+            </div>
+            <div class='footer-nav'>
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="contests.html">CONTESTS</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="team.html">TEAM</a>
+            </div>
+
+        </section>
+        
+
+
+    </footer>
 </body>
   <script type="text/javascript" src="/js/projects.js"></script>
   <script type="text/javascript">
@@ -251,4 +308,9 @@
       document.getElementById("Sidenav").style.width = "0";
     }
   </script>
+
+
+
+
+
 </html>

@@ -15,17 +15,44 @@
 
     <script type="text/javascript" src="data/team.json"></script>
     <script type="text/javascript" src="js/team.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
     <link rel="stylesheet" type="text/css" href="css/team.css" media="screen">
-
+    <link rel="stylesheet" type="text/css" href="/css/header-footer.css">
 
 
 </head>
 
-<body>
+<body style="overflow-y: scroll;">
     <!-- Import header.html here -->    
     <header>
-        <div id="header"></div>
+
+                <nav class='header-img'>
+                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
+                    
+                </nav>
+                 <!-- <nav class='header'>
+                    
+                    WEB CLUB NITK
+
+                </nav> -->
+                <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+                  <!-- Overlay content -->
+                  <div class="overlay-content">
+                    <a href="index.html">HOME</a>
+                    <a href="events.html">EVENTS</a>
+                    <a href="contests.html">CONTESTS</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="team.html">TEAM</a>
+                  </div>
+
+                </div>
+
     </header>
+
 
 <!-- Main container -->
 <div class="container">
@@ -56,8 +83,30 @@
     </div>
 
     <!-- Import footer.html here -->    
-    <footer>
-        <div id="footer"></div>
-    </footer>
+    
+        <footer style="padding-top: .5em; background-color: #212121">
+        
+        <section id='footer' style="height: 14em;" >
+
+            <h1 class='footer-heading' >WEB CLUB NITK</h1>
+            <div class='fb-git footer-heading'>
+                <a href="http://www.facebook.com" style="color: black;"><i class="fa fa-facebook"></i></a>&nbsp&nbsp
+                <a href="http://github.com" style="color: black;"><i class='fa fa-github'></i></a>
+            </div>
+            <div class='footer-nav'>
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="contests.html">CONTESTS</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="team.html">TEAM</a>
+            </div>
+
+        </section>
+        
+
+
+        </footer>
+    
 </body>
+
 </html>
