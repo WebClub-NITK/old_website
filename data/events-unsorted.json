@@ -1,0 +1,72 @@
+[
+    {
+        "timestamp": 1515069000000,
+        "title": "Papers We Love - Map Reduce ",
+        "venue": "ISTE Seminar Hall",
+        "description": " The first session for Papers We Love this semester was a discussion on the paper titled \"MapReduce: Simplified Data Processing on Large Clusters\" by Salman Shah, 3rd year IT. Link to the paper: https://research.google.com/archive/mapreduce-osdi04.pdf",
+        "link": "map-reduce-pwl-talk.pdf"
+    },			
+    {
+        "timestamp": 1516278600000,
+        "title": "Hidden Markov Models for Reinforcement Learning",
+        "venue": "Computer Science Department Seminar Hall",
+        "description": "A session on Hidden Markov Models for Reinforcement Learning was taken by Kaushik K in the Computer Science Department Seminar Hall.",
+        "link": ""
+    },			
+    {
+        "timestamp": 1516235400000,
+        "title": "Introduction to Docker",
+        "venue": "Computer Science Department Seminar Hall",
+        "description": "A small introduction to what Docker is and how it can be used in day-to-day side projects by Salman Shah, a 3rd Year IT Student",
+        "link": "intro-to-docker.pdf"
+    },
+    {
+        "timestamp": 1483875780000,
+        "title": "Papers We Love - LFU",
+        "venue": "ISTE Seminar Hall",
+        "description": "Least Frequently Used Cache Data Structure to effectively reduce access time by O(1) as presented by Chinmay Deshpande.",
+        "link": ""
+    },
+    {
+        "timestamp": 1452254400000,
+        "title": "Introduction to Scilab",
+        "venue": "ISTE Seminar Hall",
+        "description": "An Introductory tutorial on Scilab, a free and open source software for numerical computation providing a powerful computing environment for engineering and scientific applications. ",
+        "slides": "scilab.pdf"
+    },
+    {
+        "timestamp": 1453118400000,
+        "title": "Classification and Logistic Regression",
+        "venue": "Mining Seminar Hall",
+        "description": "How to make computers make sense of vast amounts of data without human intervention? Here's an introductory tutorial on classification and logistic regression, the stepping stones of Machine Learning",
+        "slides":"ml.pdf"
+    },
+    {
+        "timestamp": 1453982400000,
+        "title": "Bash Commands Cheat Sheet ",
+        "venue": "Mining Seminar Hall",
+        "description": "A journey of a thousand contributions starts with a single script. From sifting through your file system in a jiffy to automating boring tasks, a bash script can do it all. Get started with this cheat sheet for all bash commands.",
+        "link":"bash.pdf"
+    },
+    {
+        "timestamp": 1477656000000,
+        "title": "Introduction to Linux ",
+        "venue": "ISTE Seminar Hall",
+        "description": "It's time to explore what an Operating System can really do. Claim complete freedom on what your computer can do and how to do it with Linux. ",
+        "link": "Linux.pdf"
+    },
+    {
+        "timestamp": 1475928000000,
+        "title": "Github Git Cheat Sheet",
+        "venue": "Mining Seminar Hall",
+        "description": "Struggling to remember all those git commands? Here's a cheat sheet to get you up to speed and straight to the contributing!! ",
+        "link": "git-cheat-sheet-education.pdf"
+    },
+    {
+        "timestamp": 1476792000000,
+        "title": "Git &amp; GitHub",
+        "venue": "LHC-A",
+        "description": "An Introductory tutorial on git and Github. A slide deck prepared by Rohit Varkey Thankachan (class of 2016), referenced from his Github repository for the same. ",
+        "link": "git.pdf"
+    }
+]

@@ -1,0 +1,23 @@
+var contests = [
+    [
+      {
+        "title": "Syntheessence",
+        "links":[
+          "https://www.kaggle.com/c/syntheessence2017"
+        ],
+        "start_date":"1507746600000",
+        "end_date":"1508092140000",
+      },
+      {
+        "title": "Web Club Recruitment Contest",
+        "links":[
+          "https://www.hackerrank.com/web-club-recruitment-opc"
+        ],
+        "start_date":"1503934200000",
+        "end_date":"1503945000000",
+      }    
+    ]    
+];
+    
+var noOfYears = contests.length;
+var startYear = 2014;

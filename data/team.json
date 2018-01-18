@@ -1,0 +1,819 @@
+var post_bearers = [
+	{
+		"Name": "J Mohit Reddy",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Convener",
+	},
+	{
+		"Name": "Sandeep Menon",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"President",
+	},
+	{
+		"Name": "Vignesh Kannan",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Joint Convenor",
+	},
+	{
+		"Name": "T Subramanium",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Chairman",
+	},
+	{
+		"Name": "Guru Pradeep Reddy",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Secretary",
+	},
+	{
+		"Name": "Aparna PL",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Events and Projects Coordinator",
+	},
+	{
+		"Name": "Prajwala Manjunath",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Events and Projects Coordinator",
+	},
+	{
+		"Name": "Hrishikesh Hiraskar",
+		"Email Address": "hrishihiraskar@gmail.com",
+		"Github": "https://github.com/hrily",
+		"Linkedin":"https://www.linkedin.com/hrishi-hiraskar",
+		"Image":"images/posts/default.jpg",
+		"Post":"Webclub System Administrator",
+	},
+	{
+		"Name": "Het Shah",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"OPC Organizer",
+	},
+	{
+		"Name": "Ujjwal P",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Image":"images/posts/default.jpg",
+		"Post":"Publicity Coordinator",
+	},
+	{
+		"Name": "Derik Clive",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "Talks Coordinator",
+	},
+	{
+		"Name": "Vilas M",
+		"Email Address": "vilasnitk19@gmail.com",
+		"Github": "https://github.com/vilas897",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "Treasurer",
+	},
+	{
+		"Name": "Somnath Sarkar",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "Algorithms SIG Head",
+	},
+	{
+		"Name": "Ambreesh Prakash",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "ML and AI SIG Head",
+	},
+	{
+		"Name": "Sagar Bharadwaj",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "Web and App Dev SIG Head",
+	},
+	{
+		"Name": "Mohit Reddy",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "Systems SIG Head",
+	},
+	{
+		"Name": "T Subramanium",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "CodeChef Campus Ambasaddor",
+	},
+	{
+		"Name": "Somnath Sarkar",
+		"Email Address": "email@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "images/posts/default.jpg",
+		"Post": "HakerRank Chapter Head",
+	},
+];
+
+var btech_final_years = [
+	{
+		"Name": "Mohit Reddy",
+		"Email Address": "mohitreddy1996@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "T Subramaniam",
+		"Email Address": "nitksubbu@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": " T. Guru Pradeep Reddy",
+		"Email Address": "gurupradeept@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Sheetal Shalini",
+		"Email Address": "sheetalsh456@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Aparna PL",
+		"Email Address": "aparnapl99@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Ananda Rao H",
+		"Email Address": "anandarao.h8@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Prajwala TM",
+		"Email Address": "prajwala.tm@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Neha B",
+		"Email Address": "neharao.nbr@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
+		"Github": "https://github.com/",
+	},
+	{
+		"Name": "Isha Tarte",
+		"Email Address": "tarteisha@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Sandeep N Menon",
+		"Email Address": "menonsandu@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Vinay Bhat",
+		"Email Address": "vinaybhat001@gmail.com",
+		"Github": "https://github.com/vshan",
+		"Linkedin":"https://www.linkedin.com/vshan"
+	}
+];
+
+var btech_third_years = [
+	{
+		"Name": "Vilas M",
+		"Email Address": "vilasnitk19@gmail.com",
+		"Github": "https://github.com/vilas897",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Aneesh Aithal ",
+		"Email Address": "aneesh297@gmail.com ",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Aditya K Kamath",
+		"Email Address": "akamath1997@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "A Aditya",
+		"Email Address": "adityanant@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Sagar Bharadwaj",
+		"Email Address": "sagarbharadwaj50@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Siddharth Gangwani",
+		"Email Address": "siddharthgangwani@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Kaushik S Kalmady",
+		"Email Address": "kaushikskalmady@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Salman Shah",
+		"Email Address": "sbs.191197@gmail.com",
+		"Github": "https://github.com/salman-bhai",
+		"Linkedin":"https://www.linkedin.com/in/sbshah97/"
+	},
+	{
+		"Name": "Akhil U",
+		"Email Address": "akhilu077@gmail.com ",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Adarsh Honawad",
+		"Email Address": "adarsh2397@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Arvind Sai K",
+		"Email Address": "krishnanarvind100@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Derik Clive R",
+		"Email Address": "derikclive@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "M M Vikram",
+		"Email Address": "vikram0mm@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Kapil Bharath",
+		"Email Address": "kapilace6@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Suhas B S",
+		"Email Address": "suhasbs.nitk@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Sahil",
+		"Email Address": "sahil.k.sharma2015@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "G leela siva sai kumar",
+		"Email Address": "glssaikumar.2697@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Tushaar Gangarapu",
+		"Email Address": "tushaargvsg45@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Barun Kumar Acharya",
+		"Email Address": "barunkumaracharya@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Hrishikesh Hiraskar",
+		"Email Address": "hrishihiraskar@gmail.com",
+		"Github": "https://github.com/hrily/",
+		"Linkedin":"https://www.linkedin.com/in/hrishi-hiraskar/"
+	},
+	{
+		"Name": "Pratyush Prakash ",
+		"Email Address": "Pratyushprakash@live.co.uk",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Het Shah ",
+		"Email Address": "hetshah247@gmail.com ",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Arvind Ramachandran",
+		"Email Address": "arvind0705.ar@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Hafeez Ali A",
+		"Email Address": "hafeez.ali5@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Amlan Praharaj",
+		"Email Address": "amlan.prj@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Ujjwal Pasupulety",
+		"Email Address": "ujjwalpasupulety@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Shishir Gangwar",
+		"Email Address": "shishir406@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	}
+];
+
+var btech_second_years = [
+	{
+		"Name": "Moksh Jain",
+		"Email Address": "mokshjn00@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Praveen Gupta",
+		"Email Address": "pvgupta24@gmail.com",
+		"Github": "https://github.com/pvgupta24",
+		"Linkedin":"https://www.linkedin.com/in/pvgupta24/"
+	},
+	{
+		"Name": "Rahul Sankar",
+		"Email Address": "rahulsnkr@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Anumeha Agrawal",
+		"Email Address": "anumehaagrawal29@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Mishal Shah",
+		"Email Address": "shahmishal1998@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Omkar Prabhu",
+		"Email Address": "omkarp.nitk@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Shashank P",
+		"Email Address": "shashankp5424@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "M Naveen Kumar",
+		"Email Address": "mnaveenkumar2009@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Archana Priyadarshani Sahoo",
+		"Email Address": "archana98priya@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Chenna Keshava B S ",
+		"Email Address": "ckeshavabs@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Shreyas seshadri",
+		"Email Address": "shreyasseshadri@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Sharanya Kamath",
+		"Email Address": "sherrykamath@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Bhavya Bordia",
+		"Email Address": "bhavyabordia@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Utkarsh Ajay Patil",
+		"Email Address": "utkarsh2305@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Ashwin Joisa",
+		"Email Address": "ashwinjoisa@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"Name": "Shreyas Shankar",
+		"Email Address": "shreyas.shankar920@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
+	}
+];
+
+var mca_second_years = [
+	{
+		"Name": "Mayank Tripathi",
+		"Email Address": "mynktpt@gmail.com"
+	},
+	{
+		"Name": "Vishal Singh",
+		"Email Address": "vs134674@gmail.com"
+	}
+];
+
+var mca_first_years = [
+	{
+		"Name": "Aayush Rastogi",
+		"Email Address": "rastogiaayush13@gmail.com"
+	},
+	{
+		"Name": "Ankit Gaur",
+		"Email Address": "gaur.ankit9@gmail.com"
+	},
+	{
+		"Name": "Shilpi Pandey",
+		"Email Address": "shilpi23pandey@gmail.com"
+	},
+	{
+		"Name": "Adarsh Jha",
+		"Email Address": "jha.adarsh95@gmail.com"
+	},
+	{
+		"Name": "Swaraj Mishra",
+		"Email Address": "swmshra.mishra15@gmail.com"
+	},
+	{
+		"Name": "Shivansh Sharma",
+		"Email Address": "shivanshsharma1996@gmail.com"
+	}
+];
+
+var alumni_2k17 = [
+	{
+		"Name": "Aadheeshwar Vijayakumar",
+		"Email": ""
+	},
+	{
+		"Name": "Abhilash R Jahagirdar",
+		"Email": ""
+	},
+	{
+		"Name": "Abhishek Tripathi",
+		"Email": ""
+	},
+	{
+		"Name": "Abraham Gerard Sebastian",
+		"Email": ""
+	},
+	{
+		"Name": "Aishwarya Rajan",
+		"Email": ""
+	},
+	{
+		"Name": "Ajinkya Parab",
+		"Email": ""
+	},
+	{
+		"Name": "Akshay Sharma",
+		"Email": ""
+	},
+	{
+		"Name": "Anagh Singh",
+		"Email": ""
+	},
+	{
+		"Name": "Ankit Deepak",
+		"Email": ""
+	},
+	{
+		"Name": "Ankit Tripathi",
+		"Email": ""
+	},
+	{
+		"Name": "Chinmay Deshpande",
+		"Email": ""
+	},
+	{
+		"Name": "Grama Pramod Anirudh",
+		"Email": ""
+	},
+	{
+		"Name": "Jayasooryan KV",
+		"Email": ""
+	},
+	{
+		"Name": "Karthik S",
+		"Email": ""
+	},
+	{
+		"Name": "Kishor Bhat",
+		"Email": ""
+	},
+	{
+		"Name": "Medhini G N",
+		"Email": ""
+	},
+	{
+		"Name": "Prabhu Dayal Sahoo",
+		"Email": ""
+	},
+	{
+		"Name": "R Surya",
+		"Email": ""
+	},
+	{
+		"Name": "Ramesh Chandra",
+		"Email": ""
+	},
+	{
+		"Name": "S Giritheja",
+		"Email": ""
+	},
+	{
+		"Name": "Sagar Ramprasad",
+		"Email": ""
+	},
+	{
+		"Name": "Sarvjeet Singh Ghotra",
+		"Email": ""
+	},
+	{
+		"Name": "Shiva Prakash B",
+		"Email": ""
+	},
+	{
+		"Name": "Shravya K.S",
+		"Email": ""
+	},
+	{
+		"Name": "Shruthi A G",
+		"Email": ""
+	},
+	{
+		"Name": "Vadiraja K",
+		"Email": ""
+	},
+	{
+		"Name": "Vaibhav Salve",
+		"Email": ""
+	},
+	{
+		"Name": "Vaishakh K",
+		"Email": ""
+	},
+	{
+		"Name": "Varsha Prabhu",
+		"Email": ""
+	},
+	{
+		"Name": "Yashasvi Choukikar",
+		"Email": ""
+	},
+	{
+		"Name": "Yogesh Ghaturle",
+		"Email": ""
+	},
+	{
+		"Name": "Yuvraj Singh Bawa",
+		"Email": ""
+	}
+];
+
+var alumni_2k16 = [
+	{
+		"Name": "Aadheeshwar Vijayakumar",
+		"Email": ""
+	},
+	{
+		"Name": "Abhilash R Jahagirdar",
+		"Email": ""
+	},
+	{
+		"Name": "Abhishek Tripathi",
+		"Email": ""
+	},
+	{
+		"Name": "Abraham Gerard Sebastian",
+		"Email": ""
+	},
+	{
+		"Name": "Aishwarya Rajan",
+		"Email": ""
+	},
+	{
+		"Name": "Ajinkya Parab",
+		"Email": ""
+	},
+	{
+		"Name": "Akshay Sharma",
+		"Email": ""
+	},
+	{
+		"Name": "Anagh Singh",
+		"Email": ""
+	},
+	{
+		"Name": "Ankit Deepak",
+		"Email": ""
+	},
+	{
+		"Name": "Ankit Tripathi",
+		"Email": ""
+	},
+	{
+		"Name": "Chinmay Deshpande",
+		"Email": ""
+	},
+	{
+		"Name": "Grama Pramod Anirudh",
+		"Email": ""
+	},
+	{
+		"Name": "Jayasooryan KV",
+		"Email": ""
+	},
+	{
+		"Name": "Karthik S",
+		"Email": ""
+	},
+	{
+		"Name": "Kishor Bhat",
+		"Email": ""
+	},
+	{
+		"Name": "Medhini G N",
+		"Email": ""
+	},
+	{
+		"Name": "Prabhu Dayal Sahoo",
+		"Email": ""
+	},
+	{
+		"Name": "R Surya",
+		"Email": ""
+	},
+	{
+		"Name": "Ramesh Chandra",
+		"Email": ""
+	},
+	{
+		"Name": "S Giritheja",
+		"Email": ""
+	},
+	{
+		"Name": "Sagar Ramprasad",
+		"Email": ""
+	},
+	{
+		"Name": "Sarvjeet Singh Ghotra",
+		"Email": ""
+	},
+	{
+		"Name": "Shiva Prakash B",
+		"Email": ""
+	},
+	{
+		"Name": "Shravya K.S",
+		"Email": ""
+	},
+	{
+		"Name": "Shruthi A G",
+		"Email": ""
+	},
+	{
+		"Name": "Vadiraja K",
+		"Email": ""
+	},
+	{
+		"Name": "Vaibhav Salve",
+		"Email": ""
+	},
+	{
+		"Name": "Vaishakh K",
+		"Email": ""
+	},
+	{
+		"Name": "Varsha Prabhu",
+		"Email": ""
+	},
+	{
+		"Name": "Yashasvi Choukikar",
+		"Email": ""
+	},
+	{
+		"Name": "Yogesh Ghaturle",
+		"Email": ""
+	},
+	{
+		"Name": "Yuvraj Singh Bawa",
+		"Email": ""
+	}
+];
+
+var alumni_2k15 = [
+	{
+		"Name": "Adithya H K Upadhya",
+		"Email": ""
+	},
+	{
+		"Name": "Aditya Kadam",
+		"Email": ""
+	},
+	{
+		"Name": "Akshaya",
+		"Email": ""
+	},
+	{
+		"Name": "Anirudh Raja",
+		"Email": ""
+	},
+	{
+		"Name": "Avinash K",
+		"Email": ""
+	},
+	{
+		"Name": "MA Raghuram",
+		"Email": ""
+	},
+	{
+		"Name": "Tushar Makkar",
+		"Email": ""
+	},
+	{
+		"Name": "Vidyashankar",
+		"Email": ""
+	},
+	{
+		"Name": "Vikas Yaligar",
+		"Email": ""
+	}
+];

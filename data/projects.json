@@ -1,0 +1,22 @@
+var projects = [	
+	{
+		"status":"past",
+		"title":"Hetrogeneous Parallel Computing with CUDA",
+		"description": "Learning and implementing CUDA for Hetrogeneous Parallel Computing",
+		"mentors":"Vilas M, Aravind M",
+		"references":"https://udacity.com",
+		"github_link": "https://github.com/WebClub-NITK/",
+		"image_url":"/images/hacktoberfest.jpg",
+		"tag":"Parallel Computing"
+	},
+	{
+		"status":"ongoing",
+		"title":"Machine Learning Pipeline",
+		"description": "Developing a Machine Learning Pipeline for deploying real-world applications",
+		"mentors":"Salman Shah",
+		"references":"https://udacity.com",
+		"github_link": "https://github.com/WebClub-NITK/",
+		"image_url":"/images/img_avatar1.png",
+		"tag":"Machine Learning, Application Development"
+	},
+]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Enthusiasts Club NITK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Include JQuery -->
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+    <script type="text/javascript" src="data/team.json"></script>
+    <script type="text/javascript" src="js/team.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/team.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/header-footer.css">
+
+
+</head>
+
+<body style="overflow-y: scroll;">
+    <!-- Import header here -->    
+    <header>
+
+                <nav class='header-img'>
+                <img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
+                    
+                </nav>
+                 <!-- <nav class='header'>
+                    
+                    WEB CLUB NITK
+
+                </nav> -->
+                <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+                  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+                  <!-- Overlay content -->
+                  <div class="overlay-content">
+                    <a href="/">HOME</a>
+                    <a href="/events">EVENTS</a>
+                    <a href="/contests">CONTESTS</a>
+                    <a href="/projects">PROJECTS</a>
+                    <a href="/team">TEAM</a>
+                  </div>
+
+                </div>
+
+    </header>
+
+
+<!-- Main container -->
+<div class="container">
+
+    <!-- page title-->
+    <div class="pageTitle">
+        <div class="title">
+            Our Team
+        </div>
+    </div>
+
+        <div class="pageContent">
+            <!-- contests section -->
+            
+            <div id="contests" class="contests">
+                
+            </div>
+        
+
+            <!-- navigation  -->
+            <div class="nav">
+                <ul id="monthsTabs">
+                </ul>
+            </div>
+        </div>
+    
+    
+    </div>
+
+    <!-- Import footer here -->    
+    
+        <footer style="padding-top: .5em; background-color: #212121">
+        
+        <section id='footer' style="height: 14em;" >
+
+            <h1 class='footer-heading' >WEB CLUB NITK</h1>
+            <div class='fb-git footer-heading'>
+                <a href="http://www.facebook.com" style="color: black;"><i class="fa fa-facebook"></i></a>&nbsp&nbsp
+                <a href="http://github.com" style="color: black;"><i class='fa fa-github'></i></a>
+            </div>
+            <div class='footer-nav'>
+                <a href="/">HOME</a>
+                <a href="/events">EVENTS</a>
+                <a href="/contests">CONTESTS</a>
+                <a href="/projects">PROJECTS</a>
+                <a href="/team">TEAM</a>
+            </div>
+
+        </section>
+        
+
+
+        </footer>
+    
+</body>
+
+</html>
