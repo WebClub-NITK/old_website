@@ -77,14 +77,14 @@ section {
 }
 
 .events-title {
-    padding: 3em;
+    padding: 6em;
     width: 50%;
     background: #2a2a2a;
-    height: calc(100% - 6em);
+    height: calc(100% - 12em);
     display: flex;
     flex-direction: column;
     color: #fff;
-    z-index: 10;
+    z-index: 5;
 }
 
 .events-title a {
@@ -150,6 +150,9 @@ section {
     display: flex;
     z-index: 1;
     align-content: center;
+    box-sizing: border-box;
+    padding: 2em;
+    padding-left: 4em;
 }
 
 .event-desc {

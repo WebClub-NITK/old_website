@@ -29,7 +29,10 @@ function load_events(month, year) {
 		var title = '<h1 id="event-details-title" class="display-1">' + event_element_details.title + '</h1>';
 		var terminal_like = '<div id="terminal-like"><p>Event Details</p><div id="black-screen"><p id="terminal-text">' +
 							'Date: ' + tc[0] + '</br>Time: ' + tc[1] + '<br/>Venue: ' + event_element_details.venue +
-							'</br></br>' + event_element_details.description + '</p></div></div>';
+							'</br></br>' + event_element_details.description + 
+							'<br><br>' +
+							'>>> Link to slides : <a href="/slides/' + event_element_details.link + '">' + event_element_details.link + '</a>' + 
+							'</p></div></div>';
 		var event_details = '<div class="event-details">' + close_button + title + terminal_like + '</div>';
 		$('body').append(event_details);
 		$('.event-details').css({

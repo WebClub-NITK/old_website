@@ -7,32 +7,35 @@
     .header {
         writing-mode: vertical-rl;
         float: left;
-        width: 1em;
+        height: 100vh;
+        background-color: #2a2a2a;
         margin: 0;
         padding: 3px;
-        position: absolute;
+        position: fixed;
         left:0;
-        top: 5em;
+        top: 0;
+        padding-top: 5em;
+        padding-left: 12px;
+        padding-right: 12px;
         color: #FF9800;
         font-size: 2em;
         font-weight: bold;
         min-height: 500px;
-   
-
+        z-index: 99;
     }
     .header-img {
         
         float: left;
-        width: 1em
+        width: 1em;
         margin: 0;
-        position: absolute;
+        position: fixed;
         /*left:.2em;*/
         padding: 12px;
         top: .5em;
         color: #FF9800;
         font-size: 2em;
-   
-
+        z-index: 100;
+        cursor: pointer;
     }
 
     .menu-pic {
@@ -47,7 +50,7 @@
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 98; /* Sit on top */
     left: 0;
     top: 0;
     background-color: rgb(0,0,0); /* Black fallback color */
@@ -114,8 +117,8 @@
 }
 
 .footer-heading {
-
     position: relative;
+    width: 90%;
     margin: 0px;
     top: 2em;
     left: 3em;
@@ -126,7 +129,6 @@
 }
 
 .footer-nav {
-
     float: right; 
     position: relative;
     right: 4em;

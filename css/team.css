@@ -117,7 +117,7 @@ body{
 
 .details {
     font-size: 18px;
-    margin: 3px;
+    margin-top: 3px;
     padding-left: 150px;
 }
 #cardGroup0 .social{
@@ -166,7 +166,7 @@ li {
     padding: 5px;
     color: #898989;
     font-size: 22px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 li.active {
