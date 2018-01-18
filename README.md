@@ -1,6 +1,5 @@
 # Web Enthusiasts Club Website
 
-![Travis Build](https://img.shields.io/travis/WebClub-NITK/WebClub-NITK.github.io.svg)
 [![Contributors](https://img.shields.io/github/contributors/WebClub-NITK/WebClub-NITK.github.io.svg)](https://github.com/WebClub-NITK/WebClub-NITK.github.io.svg/graphs/contributors)
 ![GitHub forks](https://img.shields.io/github/forks/WebClub-NITK/WebClub-NITK.github.io.svg)
 ![GitHub stars](https://img.shields.io/github/stars/WebClub-NITK/WebClub-NITK.github.io.svg)
@@ -19,12 +18,11 @@
 	* [Contests Page](contests.html)
 	* [Events Page](events.html)
 
-### Contributing to Blog or Gyan Section
+### Contributing to Web Enthusiasts' Club Website
 * For more guidelines on how to post an article, kindly refer our [Contributing Guidelines](CONTRIBUTING.md) for how to contribute to our website!
 
 ## Bugs
 * In case you find bugs on the website, please create an Issue in the Issue Tab or [email](mailto:sbs.191197@gmail.com) one of the Contributors.
 
 ## License
-
 This theme is free and open source software, distributed under the The MIT License. 

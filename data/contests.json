@@ -1,131 +1,22 @@
 var contests = [
     [
       {
-        "title": "Competitive Coding",
+        "title": "Syntheessence",
         "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
+          "https://www.kaggle.com/c/syntheessence2017"
         ],
-        "start_date":"1401662424",
-        "end_date":"1401662424",
+        "start_date":"1507746600000",
+        "end_date":"1508092140000",
       },
       {
-        "title": "Competitive Coding",
+        "title": "Web Club Recruitment Contest",
         "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
+          "https://www.hackerrank.com/web-club-recruitment-opc"
         ],
-        "start_date":"1401662424",
-        "end_date":"1401662424",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1401662424",
-        "end_date":"1401662424",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1401662424",
-        "end_date":"1401662424",
-      }
-    ],
-    [
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1434226993",
-        "end_date":"1434226993",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1434226993",
-        "end_date":"1434226993",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1434226993",
-        "end_date":"1434226993",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1434226993",
-        "end_date":"1434226993",
-      }
-    ],
-    [
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1468487607",
-        "end_date":"1468487607",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1468487607",
-        "end_date":"1468487607",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1468487607",
-        "end_date":"1468487607",
-      },
-      {
-        "title": "Competitive Coding",
-        "links":[
-          "www.hackerrank.com",
-          "www.hackerrank.com",
-          "www.hackerrank.com"
-        ],
-        "start_date":"1471383249",
-        "end_date":"1471383249",
-      }
-    ]
-    
+        "start_date":"1503934200000",
+        "end_date":"1503945000000",
+      }    
+    ]    
 ];
     
 var noOfYears = contests.length;

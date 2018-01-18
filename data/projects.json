@@ -1,42 +1,22 @@
 var projects = [	
 	{
 		"status":"past",
-		"title":"Hacktoberfest",
-		"description": "Hacktoberfest by Digital Ocean",
-		"mentors":"ABC",
-		"references":"",
-		"github_link": "https://github.com/WebClub-NITK/Hacktoberfest-2k17",
+		"title":"Hetrogeneous Parallel Computing with CUDA",
+		"description": "Learning and implementing CUDA for Hetrogeneous Parallel Computing",
+		"mentors":"Vilas M, Aravind M",
+		"references":"https://udacity.com",
+		"github_link": "https://github.com/WebClub-NITK/",
 		"image_url":"/images/hacktoberfest.jpg",
-		"tag":"Open Source"
+		"tag":"Parallel Computing"
 	},
 	{
 		"status":"ongoing",
-		"title":"LFU",
-		"description": "LFU Paper implementation",
-		"mentors":"XYZ",
-		"references":"",
-		"github_link": "https://github.com/WebClub-NITK/LFU",
+		"title":"Machine Learning Pipeline",
+		"description": "Developing a Machine Learning Pipeline for deploying real-world applications",
+		"mentors":"Salman Shah",
+		"references":"https://udacity.com",
+		"github_link": "https://github.com/WebClub-NITK/",
 		"image_url":"/images/img_avatar1.png",
-		"tag":"Research"
+		"tag":"Machine Learning, Application Development"
 	},
-	{
-		"status":"ongoing",
-		"title":"MapReduce",
-		"description": "PWL talk on the paper MapReduce",
-		"mentors":"SIR",
-		"references":"",
-		"github_link" : "https://github.com/WebClub-NITK/MapReduce",
-		"image_url":"/images/img_avatar1.png",
-		"tag":"Research Paper"
-	}
 ]
-/*var projects = [
-    {
-        "title":"",
-        "status":"",
-        "mentors":"",
-        "references":"",
-        "description":"",
-        "image_url":""
-    }
-]*/

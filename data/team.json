@@ -131,7 +131,6 @@ var btech_final_years = [
 		"Github": "https://github.com/",
 		"Linkedin":"https://www.linkedin.com/",
 		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/"
 	},
 	{
 		"Name": "Isha Tarte",
@@ -144,6 +143,12 @@ var btech_final_years = [
 		"Email Address": "menonsandu@gmail.com",
 		"Github": "https://github.com/",
 		"Linkedin":"https://www.linkedin.com/"
+	}
+	{
+		"Name": "Vinay Bhat",
+		"Email Address": "vinaybhat001@gmail.com",
+		"Github": "https://github.com/vshan",
+		"Linkedin":"https://www.linkedin.com/vshan"
 	}
 ];
 
@@ -193,8 +198,8 @@ var btech_third_years = [
 	{
 		"Name": "Salman Shah",
 		"Email Address": "sbs.191197@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/"
+		"Github": "https://github.com/salman-bhai",
+		"Linkedin":"https://www.linkedin.com/in/sbshah97/"
 	},
 	{
 		"Name": "Akhil U",

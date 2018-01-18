@@ -1,6 +1,28 @@
 var events = {
 	"2018": {
-		"Jan": [],
+		"Jan": [
+			{
+				"timestamp": 1515069000000,
+				"title": "Papers We Love - Map Reduce ",
+				"venue": "ISTE Seminar Hall",
+				"description": " The first session for Papers We Love this semester was a discussion on the paper titled "MapReduce: Simplified Data Processing on Large Clusters" by Salman Shah, 3rd year IT. Link to the paper: https://research.google.com/archive/mapreduce-osdi04.pdf",
+				"link": "map-reduce-pwl-talk.pdf"
+			},			
+			{
+				"timestamp": 1516278600000,
+				"title": "Hidden Markov Models for Reinforcement Learning",
+				"venue": "Computer Science Department Seminar Hall",
+				"description": "A session on Hidden Markov Models for Reinforcement Learning was taken by Kaushik K in the Computer Science Department Seminar Hall.",
+				"link": ""
+			},			
+			{
+				"timestamp": 1516235400000,
+				"title": "Introduction to Docker",
+				"venue": "Computer Science Department Seminar Hall",
+				"description": "A small introduction to what Docker is and how it can be used in day-to-day side projects by Salman Shah, a 3rd Year IT Student",
+				"link": "intro-to-docker.pdf"
+			},			
+		],
 		"Feb": [],
 		"Mar": [],
 		"Apr": [],
@@ -8,297 +30,105 @@ var events = {
 		"June": [],
 		"July": [],
 		"Aug": [],
-		"Sept": [
-			{
-				"timestamp": 1505194200,
-				"title": "Papers We Love",
-				"venue": "LHC-A",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505386800,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505445300,
-				"title": "Git &amp; GitHub",
-				"venue": "ISTE Seminar Hall",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505726100,
-				"title": "Big Data Sesson",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1504616100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1506603300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505198700,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-		],
-		"Oct": [
-			{
-				"timestamp": 1507290300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1508490000,
-				"title": "Big Data Session",
-				"venue": "Mining Seminar Hall",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1506917700,
-				"title": "Machine Learning &amp; Artificial Intelligence",
-				"venue": "LHC-C",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-		],
+		"Sept": [],
+		"Oct": [],
 		"Nov": [],
-		"Dec": [
-			{
-				"timestamp": 1513587600,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-C",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1512906300,
-				"title": "Big Data Session",
-				"venue": "LHC-A",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1512437100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1514187000,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-		],
+		"Dec": [],
 	},
 	"2017": {
-		"Jan": [],
-		"Feb": [
+		"Jan": [
 			{
-				"timestamp": 1507290300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1508490000,
-				"title": "Big Data Session",
-				"venue": "Mining Seminar Hall",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1506917700,
-				"title": "Machine Learning &amp; Artificial Intelligence",
-				"venue": "LHC-C",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
+				"timestamp": 1483875780000,
+				"title": "Papers We Love - LFU",
+				"venue": "ISTE Seminar Hall",
+				"description": "Least Frequently Used Cache Data Structure to effectively reduce access time by O(1) as presented by Chinmay Deshpande.",
+				"link": ""
+			}
 		],
+		"Feb": [],
 		"Mar": [],
 		"Apr": [],
-		"May": [
-			{
-				"timestamp": 1513587600,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-C",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1512906300,
-				"title": "Big Data Session",
-				"venue": "LHC-A",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1512437100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1514187000,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-		],
+		"May": [],
 		"June": [],
 		"July": [],
 		"Aug": [],
 		"Sept": [],
-		"Oct": [],
+		"Oct": [
+			{
+				"timestamp": 1513587600,
+				"title": "Hacktoberfest NITK Edition",
+				"venue": "ISTE Seminar Hall",
+				"description": "Learn to contribute to Open Source using Git and learn how to work with Github.",
+				"link":"git.pdf"
+			}
+		],
 		"Nov": [
 			{
 				"timestamp": 1505194200,
 				"title": "Papers We Love",
 				"venue": "LHC-A",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505386800,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505445300,
-				"title": "Git &amp; GitHub",
-				"venue": "ISTE Seminar Hall",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505726100,
-				"title": "Big Data Sesson",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1504616100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1506603300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505198700,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
+				"description": "Papers We Love - An initiative by Web Enthusiasts Club to promote discussion of research papers in Computer Science.",
+				"link": ""
+			}
 		],
 		"Dec": [],
 	},
 	"2016": {
 		"Jan": [
 			{
-				"timestamp": 1507290300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
+				"timestamp": 1452254400000,
+				"title": "Introduction to Scilab",
+				"venue": "ISTE Seminar Hall",
+				"description": "An Introductory tutorial on Scilab, a free and open source software for numerical computation providing a powerful computing environment for engineering and scientific applications. ",
+				"slides": "scilab.pdf"
 			},
 			{
-				"timestamp": 1508490000,
-				"title": "Big Data Session",
+				"timestamp": 1453118400000,
+				"title": "Classification and Logistic Regression",
 				"venue": "Mining Seminar Hall",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+				"description": "How to make computers make sense of vast amounts of data without human intervention? Here's an introductory tutorial on classification and logistic regression, the stepping stones of Machine Learning",
+				"slides":"ml.pdf"
 			},
 			{
-				"timestamp": 1506917700,
-				"title": "Machine Learning &amp; Artificial Intelligence",
-				"venue": "LHC-C",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
+				"timestamp": 1453982400000,
+				"title": "Bash Commands Cheat Sheet ",
+				"venue": "Mining Seminar Hall",
+				"description": "A journey of a thousand contributions starts with a single script. From sifting through your file system in a jiffy to automating boring tasks, a bash script can do it all. Get started with this cheat sheet for all bash commands.",
+				"link":"bash.pdf"
 			},
 		],
 		"Feb": [],
 		"Mar": [],
 		"Apr": [],
 		"May": [],
-		"June": [
-			{
-				"timestamp": 1513587600,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-C",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1512906300,
-				"title": "Big Data Session",
-				"venue": "LHC-A",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1512437100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1514187000,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-		],
+		"June": [],
 		"July": [],
-		"Aug": [
-			{
-				"timestamp": 1505194200,
-				"title": "Papers We Love",
-				"venue": "LHC-A",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505386800,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1505445300,
-				"title": "Git &amp; GitHub",
-				"venue": "ISTE Seminar Hall",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505726100,
-				"title": "Big Data Sesson",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1504616100,
-				"title": "PWP",
-				"venue": "ISTE Seminar Hall",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae commodo quam, at facilisis arcu. Ut mollis sem nec sapien bibendum viverra. Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-			{
-				"timestamp": 1506603300,
-				"title": "Git &amp; GitHub",
-				"venue": "LHC-A",
-				"description": "Maecenas vehicula imperdiet eros id ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent at lacus id metus porta vestibulum vel non erat. Pellentesque eu tortor ac ante ultrices viverra id eu mauris. Duis mattis, massa a bibendum ultrices, augue augue aliquam purus, ut sodales urna risus at eros.",
-			},
-			{
-				"timestamp": 1505198700,
-				"title": "Big Data Session",
-				"venue": "LHC-C",
-				"description": "Suspendisse sit amet purus et turpis commodo pretium. Nunc quis metus non nibh iaculis commodo eget et massa. Suspendisse vitae facilisis ex. Nullam sodales porta nisi, nec consequat justo posuere at. Donec finibus ornare lacus ac fringilla. Etiam tristique quis tellus sed pretium. Curabitur non elementum erat. In vitae viverra erat. Aenean quis libero odio. Phasellus sollicitudin auctor erat a lacinia.",
-			},
-		],
+		"Aug": [],
 		"Sept": [],
-		"Oct": [],
+		"Oct": [
+			{
+				"timestamp": 1477656000000,
+				"title": "Introduction to Linux ",
+				"venue": "ISTE Seminar Hall",
+				"description": "It's time to explore what an Operating System can really do. Claim complete freedom on what your computer can do and how to do it with Linux. ",
+				"link": "Linux.pdf"
+			},
+			{
+				"timestamp": 1475928000000,
+				"title": "Github Git Cheat Sheet",
+				"venue": "Mining Seminar Hall",
+				"description": "Struggling to remember all those git commands? Here's a cheat sheet to get you up to speed and straight to the contributing!! ",
+				"link": "git-cheat-sheet-education.pdf"
+			},
+			{
+				"timestamp": 1476792000000,
+				"title": "Git &amp; GitHub",
+				"venue": "LHC-A",
+				"description": "An Introductory tutorial on git and Github. A slide deck prepared by Rohit Varkey Thankachan (class of 2016), referenced from his Github repository for the same. ",
+				"link": "git.pdf"
+			},
+						
+		],
 		"Nov": [],
 		"Dec": [],
 	},
