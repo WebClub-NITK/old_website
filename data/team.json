@@ -650,134 +650,127 @@ var alumni_2k17 = [
 
 var alumni_2k16 = [
 	{
-		"Name": "Aadheeshwar Vijayakumar",
+		"Name": "Adarsh Mohata",
 		"Email": ""
 	},
 	{
-		"Name": "Abhilash R Jahagirdar",
+		"Name": "Ajith Pandel",
 		"Email": ""
 	},
 	{
-		"Name": "Abhishek Tripathi",
+		"Name": "Amit Agarwal",
 		"Email": ""
 	},
 	{
-		"Name": "Abraham Gerard Sebastian",
+		"Name": "Aneesh S",
 		"Email": ""
 	},
 	{
-		"Name": "Aishwarya Rajan",
+		"Name": "Anuj Kumar",
 		"Email": ""
 	},
 	{
-		"Name": "Ajinkya Parab",
+		"Name": "Ashish Kedia",
 		"Email": ""
 	},
 	{
-		"Name": "Akshay Sharma",
+		"Name": "Bhuvan M S",
 		"Email": ""
 	},
 	{
-		"Name": "Anagh Singh",
+		"Name": "Bobby Dixit",
 		"Email": ""
 	},
 	{
-		"Name": "Ankit Deepak",
+		"Name": "Deepak Kushwaha",
 		"Email": ""
 	},
 	{
-		"Name": "Ankit Tripathi",
+		"Name": "Gurvinder Singh",
 		"Email": ""
 	},
 	{
-		"Name": "Chinmay Deshpande",
+		"Name": "Karthik Senthil",
 		"Email": ""
 	},
 	{
-		"Name": "Grama Pramod Anirudh",
+		"Name": "Kusum Vanwani",
 		"Email": ""
 	},
 	{
-		"Name": "Jayasooryan KV",
+		"Name": "Madhavi Srinivasan",
 		"Email": ""
 	},
 	{
-		"Name": "Karthik S",
+		"Name": "Manasa Sreekesh",
 		"Email": ""
 	},
 	{
-		"Name": "Kishor Bhat",
+		"Name": "Maonica Rao",
 		"Email": ""
 	},
 	{
-		"Name": "Medhini G N",
+		"Name": "Mayank Bhura",
 		"Email": ""
 	},
 	{
-		"Name": "Prabhu Dayal Sahoo",
+		"Name": "Mintu Jothish",
 		"Email": ""
 	},
 	{
-		"Name": "R Surya",
+		"Name": "Muhammad Asif",
 		"Email": ""
 	},
 	{
-		"Name": "Ramesh Chandra",
+		"Name": "Nagarjuna Yelisetty",
 		"Email": ""
 	},
 	{
-		"Name": "S Giritheja",
+		"Name": "Rakesh Kumar Sharma",
 		"Email": ""
 	},
 	{
-		"Name": "Sagar Ramprasad",
+		"Name": "RM Sumukha",
 		"Email": ""
 	},
 	{
-		"Name": "Sarvjeet Singh Ghotra",
+		"Name": "Rohit Varkey Thankachan",
 		"Email": ""
 	},
 	{
-		"Name": "Shiva Prakash B",
+		"Name": "S Ashish Bharadwa",
 		"Email": ""
 	},
 	{
-		"Name": "Shravya K.S",
+		"Name": "S Vinay Kumar",
 		"Email": ""
 	},
 	{
-		"Name": "Shruthi A G",
+		"Name": "Sashi Roshan",
 		"Email": ""
 	},
 	{
-		"Name": "Vadiraja K",
+		"Name": "Shreyas Udupa B",
 		"Email": ""
 	},
 	{
-		"Name": "Vaibhav Salve",
+		"Name": "Suraj Rajan",
 		"Email": ""
 	},
 	{
-		"Name": "Vaishakh K",
+		"Name": "Sushant Dinesh",
 		"Email": ""
 	},
 	{
-		"Name": "Varsha Prabhu",
+		"Name": "Thejdeep Gudivada",
 		"Email": ""
 	},
 	{
-		"Name": "Yashasvi Choukikar",
-		"Email": ""
-	},
-	{
-		"Name": "Yogesh Ghaturle",
-		"Email": ""
-	},
-	{
-		"Name": "Yuvraj Singh Bawa",
+		"Name": "Vishal U Karve",
 		"Email": ""
 	}
-];
+];	
+	
 
 var alumni_2k15 = [
 	{
