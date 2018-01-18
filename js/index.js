@@ -10,27 +10,37 @@ const colors = ['#FF1744', '#76FF03', '#64FFDA'];
 const ids = ['sec0', 'sec1', 'sec2'];
 
 $(function () {
-    var isChrome = !!window.chrome && !!window.chrome.webstore;
+    loadJSON('data/events-unsorted.json', function (response) {
+        events = JSON.parse(response);
+        loadedEvents = true;
+        
+        var isChrome = !!window.chrome && !!window.chrome.webstore;
 
-    if (!isChrome) {
-        SCROLL_DELTA = 2;
-    }
+        if (!isChrome) {
+            SCROLL_DELTA = 2;
+        }
 
-    if ($(window).width() > 600) {
-        animateHead();
-        enableScrollAnimation();
-    } else {
-        animateEvents();
-    }
+        if ($(window).width() > 600) {
+            animateHead();
+            enableScrollAnimation();
+        } else {
+            animateEvents();
+        }
 
-    if (selectedEvent === 0) {
-        $('#bt-prev').css({
-            opacity: 0.2
-        });
-    }
+        if (window.scrollY >= 10)
+            animateEvents();
+        if (window.scrollY >= window.innerHeight + 10)
+            animatePastEvents();
 
-    $('#bt-next').on('click', handleNext);
-    $('#bt-prev').on('click', handlePrev);
+        if (selectedEvent === 0) {
+            $('#bt-prev').css({
+                opacity: 0.2
+            });
+        }
+
+        $('#bt-next').on('click', handleNext);
+        $('#bt-prev').on('click', handlePrev);
+    });
 });
 
 function animateHead() {
@@ -435,8 +445,8 @@ function handleScroll(e) {
 }
 
 function animatePastEvents() {
-    $('.desc').text(events[events.length - 1 - selectedEvent].description);
-    $('.title').text(events[events.length - 1 - selectedEvent].name);
+    $('.desc').html(events[events.length - 1 - selectedEvent].description);
+    $('.title').html(events[events.length - 1 - selectedEvent].title);
     $('.event-details').css({
         transform: 'translateX(-100%)'
     });
@@ -455,26 +465,23 @@ function animatePastEvents() {
         $('.event-details .image').css({
             transform: 'translateX(0%)'
         });
-        $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
+        // $('.event-details .image').attr('src', events[events.length - 1 - selectedEvent].image);
+        $('.event-details .image').attr('src', 'images/coding-back.jpg');
     }, 1000);
 }
 
 function animateEvents() {
-    loadJSON('data/events-test.json', function (response) {
-        events = JSON.parse(response);
+    for (var i = 0; i < 3; i++) {
+        event = createEventCard(events[i]);
+        $('.upcoming-events-list').append(event);
+    }
 
-        for (var i = 0; i < 3; i++) {
-            event = createEventCard(events[i]);
-            $('.upcoming-events-list').append(event);
-        }
+    var items = document.querySelectorAll('.event');
 
-        var items = document.querySelectorAll('.event');
-
-        for (var i = 0; i < 3; i++) {
-            var enterAnimation = getEnterAnimation(items[i], i);
-            setTimeout(enterAnimation, (i + 1) * 300);
-        }
-    });
+    for (var i = 0; i < 3; i++) {
+        var enterAnimation = getEnterAnimation(items[i], i);
+        setTimeout(enterAnimation, (i + 1) * 300);
+    }
 }
 
 function getEnterAnimation(item, i) {
@@ -490,7 +497,7 @@ function createEventCard(event) {
 
     var title = document.createElement('div');
     title.className = "list-title";
-    title.innerText = event.name;
+    title.innerText = event.title;
     card.appendChild(title);
 
     var venue = document.createElement('div');
