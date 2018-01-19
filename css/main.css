@@ -102,7 +102,7 @@ section {
 }
 
 .event {
-    height: 33.33%;
+    height: 33.33vh !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,8 +112,12 @@ section {
 }
 
 .event .list-title {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
+}
+
+.event .venue, .event .time {
+    font-size: 1em;
 }
 
 .about-us {
