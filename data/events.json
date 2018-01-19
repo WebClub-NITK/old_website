@@ -22,6 +22,13 @@ var events = {
 				"description": "A small introduction to what Docker is and how it can be used in day-to-day side projects by Salman Shah, a 3rd Year IT Student",
 				"link": "intro-to-docker.pdf"
 			},			
+			{
+				"timestamp": 1485258180000,
+				"title": "Papers We Love Talk",
+				"venue": "Computer Science Department Seminar Hall",
+				"description": "This week's Papers We Love Talk is taken by Ujjwal P. aka dcodr. Papers We Love is a global intiative undertaken to spread awareness about research papers in the Computer Science community.",
+				"link": ""
+			},			
 		],
 		"Feb": [],
 		"Mar": [],
