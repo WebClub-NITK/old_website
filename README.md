@@ -8,6 +8,18 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ![All Platforms!](https://img.shields.io/badge/Windows,%20OS/X,%20Linux-%20%20-brightgreen.svg)
 
+### Installation
+* Clone the repository
+```bash
+git clone https://github.com/WebClub-NITK/WebClub-NITK.github.io.git
+cd WebClub-NITK.github.io.git
+``` 
+* Run the website on local server 
+```bash
+python -m SimpleHTTPServer 8000
+``` 
+* Navigate to [localhost:8000](http://localhost:8000/) in your browser
+
 ## CONTRIBUTING
 
 ### Contributing to Main Website
