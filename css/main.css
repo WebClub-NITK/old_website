@@ -192,8 +192,7 @@ section {
 }
 
 .web-club-logo{
-	height: 200px; 
-	width: 200px;
+	height: 150px; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -202,9 +201,9 @@ section {
 		
 	}
 	.web-club-logo{
-	height: 100px; 
-	width: 100px;
-}
+	    height: 100px; 
+    }
+
 	.title-contents h2 {
 		color: #fff;
 		font-size: 1em;
