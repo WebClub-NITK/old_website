@@ -194,13 +194,8 @@ section {
 .web-club-logo{
 	height: 150px; 
 }
-
-@media only screen and (max-width: 600px) {
-	section {
-		height: auto;
-		
-	}
-	.web-club-logo{
+@media only screen and (max-width: 1200px) {
+.web-club-logo{
 	    height: 100px; 
     }
 
@@ -214,6 +209,12 @@ section {
 		color: #FF9800;
 		font-size: 2em;
 		margin: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	section {
+		height: auto;
+		
 	}
 
 	.hero {
