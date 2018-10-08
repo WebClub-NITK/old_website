@@ -10,7 +10,7 @@ footer {
 	height: 100vh;
 	background-color: #2a2a2a;
 	margin: 0;
-	padding: 3px;
+	padding: 20px;
 	position: fixed;
 	left:0;
 	top: 0;
@@ -18,10 +18,14 @@ footer {
 	padding-left: 12px;
 	padding-right: 12px;
 	color: #FF9800;
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: bold;
 	min-height: 500px;
 	z-index: 99;
+}
+.head-text{
+	margin-top:15vh;
+	padding:3px;
 }
 .header-img {
 	

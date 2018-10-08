@@ -38,13 +38,13 @@ section {
 
 .title-contents h2 {
 	color: #fff;
-	font-size: 3em;
+	font-size: 2em;
 	margin: 0;
 }
 
 .title-contents h1 {
 	color: #FF9800;
-	font-size: 5em;
+	font-size: 3em;
 	margin: 0;
 }
 
@@ -191,6 +191,26 @@ section {
 	width: 65%;
 }
 
+.web-club-logo{
+	height: 150px; 
+}
+@media only screen and (max-width: 1200px) {
+.web-club-logo{
+	    height: 100px; 
+    }
+
+	.title-contents h2 {
+		color: #fff;
+		font-size: 1em;
+		margin: 0;
+	}
+
+	.title-contents h1 {
+		color: #FF9800;
+		font-size: 2em;
+		margin: 0;
+	}
+}
 @media only screen and (max-width: 600px) {
 	section {
 		height: auto;
