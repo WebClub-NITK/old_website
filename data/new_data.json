@@ -1,0 +1,290 @@
+{
+    "Post Bearers": [
+        {
+            "name": "Vilas Bhat",
+            "post": "Convener",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Sagar Bharadwaj KS",
+            "post": "Secretary",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Kaushik S Kalmady",
+            "post": "Chairman",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Arvind Sai Krishnan",
+            "post": "Joint-Convener",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Anumeha Agrawal",
+            "post": "Treasurer",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Praveen Kumar Gupta",
+            "post": "Web Master",
+            "image": "default.jpg",
+            "emailAddress": "pvgupta24@gmail.com",
+            "github": "https://github.com/pvgupta24",
+            "linkedin": "https://www.linkedin.com/in/pvgupta24/"
+        },
+        {
+            "name": "M Naveen Kumar",
+            "post": "Coding Platform Coordinator",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Akhil U",
+            "post": "Comps Committee Convener",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Siddharth Gangwani",
+            "post": "Algorithms Group Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Aditya K Kamath",
+            "post": "Algorithms Group Vice-Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Ashwin Joisa",
+            "post": "Algorithms Group Secretary",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Ambareesh Prakash",
+            "post": "Intelligence Group Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Amlan Praharaj",
+            "post": "Intelligence Group Vice-Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Moksh Jain",
+            "post": "Intelligence Group Secretary",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Hrishikesh Hiraskar",
+            "post": "Development Group Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Salman Shah",
+            "post": "Development Group Vice-Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Utkarsh Patil",
+            "post": "Development Group Secretary",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Rakshith G",
+            "post": "Systems & Security Group Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Kapil Bharath",
+            "post": "Systems & Security Group Vice-Chair",
+            "image": "default.jpg"
+        },
+        {
+            "name": "Ram Aditya",
+            "post": "Systems & Security Group Secretary",
+            "image": "default.jpg"
+        }
+    ],
+    "Final Year BTech": [
+        {
+            "name": "Adarsh Honawad"
+        },
+        {
+            "name": "Aneesh Aithal"
+        },
+        {
+            "name": "Leslie Monis"
+        },
+        {
+            "name": "Het Shah"
+        },
+        {
+            "name": "Derik Clive R"
+        },
+        {
+            "name": "Somnath Sarkar"
+        },
+        {
+            "name": "Jeshventh Raja T K"
+        },
+        {
+            "name": "Barun Kumar Acharya"
+        },
+        {
+            "name": "Vighnesh V"
+        },
+        {
+            "name": "Suhas B S"
+        },
+        {
+            "name": "Bhabesh Chanduka"
+        },
+        {
+            "name": "Pratyush Prakash"
+        },
+        {
+            "name": "A Aditya"
+        },
+        {
+            "name": "Akshay Upadhya B"
+        },
+        {
+            "name": "M M Vikram"
+        },
+        {
+            "name": "Vasista Ayyagari"
+        }
+    ],
+    "Junior Year BTech": [
+        {
+            "name": "Chenna Keshava B S"
+        },
+        {
+            "name": "Mishal Shah"
+        },
+        {
+            "name": "Rahul Sankar"
+        },
+        {
+            "name": "Sharanya Kamath"
+        },
+        {
+            "name": "V.Saicharan"
+        },
+        {
+            "name": "Dibyadarshan Hota"
+        },
+        {
+            "name": "Aditi Gupta"
+        },
+        {
+            "name": "Adwaith V Gautham"
+        },
+        {
+            "name": "Archana Priyadarshani Sahoo"
+        },
+        {
+            "name": "Gautam Ramakrishnan"
+        },
+        {
+            "name": "Omkar Prabhu"
+        },
+        {
+            "name": "Shashank P"
+        },
+        {
+            "name": "Vanshika Gupta"
+        },
+        {
+            "name": "Spandana Balumuri"
+        },
+        {
+            "name": "Shreyas Seshadri"
+        },
+        {
+            "name": "Shreyas Shankar"
+        },
+        {
+            "name": "Mahim Agrawal"
+        },
+        {
+            "name": "Abhilash V"
+        },
+        {
+            "name": "Bhavya Bordia"
+        }
+    ],
+    "Sophomore BTech": [
+        {
+            "name": "Sagnik Ghosh"
+        },
+        {
+            "name": "Abhinav P Y"
+        },
+        {
+            "name": "Nishanth Subramanian"
+        },
+        {
+            "name": "Rohit M P"
+        },
+        {
+            "name": "Chetlur Krishna"
+        },
+        {
+            "name": "Kevin George Joe"
+        },
+        {
+            "name": "Manan Poddar"
+        },
+        {
+            "name": "Prajwal S Belagavi"
+        },
+        {
+            "name": "Arqum Shaikh"
+        },
+        {
+            "name": "Shanthanu S Rai"
+        },
+        {
+            "name": "Dhanush R G"
+        },
+        {
+            "name": "Niranjan Ramesh Rao"
+        },
+        {
+            "name": "Aakash Singh"
+        },
+        {
+            "name": "Aditya Jain"
+        },
+        {
+            "name": "Chinmayan Pradeep"
+        },
+        {
+            "name": "Harsh Prakash Gupta"
+        },
+        {
+            "name": "Ryan Perpetual Rozario"
+        },
+        {
+            "name": "Rakesh Pavan"
+        },
+        {
+            "name": "Arpitha Raghunandan"
+        },
+        {
+            "name": "Madhuparna Bhowmik"
+        },
+        {
+            "name": "Pranav P"
+        },
+        {
+            "name": "Saurabh Agarwala"
+        },
+        {
+            "name": "Yogesh Choubey"
+        },
+        {
+            "linkedin": "."
+        }
+    ]
+}

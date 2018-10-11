@@ -6,21 +6,22 @@ $(function(){
 
     // team.json variable names
     var fieldNames = {
-    	name        :"Name",
-    	email       :"Email Address",
-    	github      :"Github",
-    	linkedin    :"Linkedin",
-    	image       :"Image",
-    	post        :"Post",
-    	description :"Description"
+    	name        :"name",
+    	email       :"emailAddress",
+    	github      :"github",
+    	linkedin    :"linkedin",
+    	image       :"imageUrl",
+    	post        :"post",
+    	description :"description"
     }
     var jsonVariables = [
     post_bearers,
     btech_final_years,
     btech_third_years,
     btech_second_years,
-    mca_second_years,
-    mca_first_years,
+    /*mca_second_years,
+	mca_first_years,*/
+	alumni_2k18,
     alumni_2k17,
     alumni_2k16,
     alumni_2k15,
@@ -30,8 +31,9 @@ $(function(){
     'btech_final_years',
     'btech_third_years',
     'btech_second_years',
-    'mca_second_years',
-    'mca_first_years',
+    /*'mca_second_years',
+	'mca_first_years',*/
+    'alumni_2k18',
     'alumni_2k17',
     'alumni_2k16',
     'alumni_2k15',
@@ -41,8 +43,9 @@ $(function(){
     'Final Years',
     'Third Years',
     'Second Years',
-    'MCA II Years',
-    'MCA I Years',
+    /*'MCA II Years',
+	'MCA I Years',*/
+	'Alumni 2k18',
     'Alumni 2k17',
     'Alumni 2k16',
     'Alumni 2k15'
