@@ -31,8 +31,17 @@ function load_events(month, year) {
 							'Date: ' + tc[0] + '</br>Time: ' + tc[1] + '<br/>Venue: ' + event_element_details.venue +
 							'</br></br>' + event_element_details.description + 
 							'<br><br>' +
-							'>>> Link to slides : <a href="/slides/' + event_element_details.link + '">' + event_element_details.link + '</a>' + 
+
+							// Add slides if it exists
+							(event_element_details.link?
+							('>>> Link to slides : <a href="/slides/' + event_element_details.link + '">' + event_element_details.link + '</a>'):'') + 
+							
+							// External link to images if it exists
+							(event_element_details.images_link?
+							('>>> : <a href="' + event_element_details.images_link + '">Event Images</a>'):'') + 
+							
 							'</p></div></div>';
+		console.log(event_element_details);
 		var event_details = '<div class="event-details">' + close_button + title + terminal_like + '</div>';
 		$('body').append(event_details);
 		$('.event-details').css({

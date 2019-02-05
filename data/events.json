@@ -1,4 +1,18 @@
+/*
+Format:
+	{
+	"timestamp": 1516235400000,
+	"title": "<Event Name>",
+	"venue": "Computer Science Department Seminar Hall",
+	"description": "<Description>",
+	"link": "intro-to-docker.pdf"
+	"images_link": "<Link to images>"
+	}
+*/
+
 var events = {
+	"2019": {
+	}	,
 	"2018": {
 		"Jan": [
 			{
