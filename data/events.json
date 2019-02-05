@@ -6,7 +6,6 @@ Format:
 	"venue": "Computer Science Department Seminar Hall",
 	"description": "<Description>",
 	"link": "intro-to-docker.pdf"
-	"images_link": "<Link to images>"
 	}
 */
 
@@ -54,7 +53,7 @@ var events = {
 				"timestamp":1532736000,
 				"title": "Clique",
 				"venue": "Online",
-				"description": "Programming contest",
+				"description": "Online Programming Contest",
 				"link": ""
 			}	
 		],
@@ -62,23 +61,16 @@ var events = {
 			{
 				"timestamp": 1535328000,
 				"title": "Software Freedom Week",
-				"venue": "cse Seminar Hall",
+				"venue": "CSE Seminar Hall",
 				"description": "A week long series of talks focused on open source software. The aim was to introduce the audience to open source opportunities.",
-				"link": "https://drive.google.com/open?id=109-lK9PuACr8lENTzDNZ2EveVN8WmgOd"
+				"link": "https://drive.google.com/open?id=1oJaR6W0GCm6xpWcLV2nsGLskWrgEA3n9"
 			},
 			{
 				"timestamp": 1533600000,
 				"title": "Intern 411",
 				"venue": "NITK",
 				"description": "Allowed students to anonymously submit questions they had about on-campus internship drives. Collectively answered all questions in a public document.",
-				"link": "https://drive.google.com/file/d/1HlMYrxN6u3mtUf4XrKuORrBWBkLnGv_P/view"
-			},
-			{
-				"timestamp": 1515069000000,
-				"title": "Software Freedom Week",
-				"venue": "cse Seminar Hall",
-				"description": "",
-				"link": ""
+				"link": "https://docs.google.com/document/d/1_LJpygzPms5erjyzrFZG5MlZez09A0oW-BOsxHvw8jI/edit"
 			}
 		],
 		"Sept": [
@@ -93,7 +85,7 @@ var events = {
 				"timestamp": 1535760000,
 				"title": "Codebuddy",
 				"venue": "slack",
-				"description": "New recruits get a chance to interact with veteran coders, and discuss a DSA problem.			",
+				"description": "New recruits get a chance to interact with veteran coders, and discuss a DSA problem and gain some interview experience.			",
 				"link": ""
 			}
 
@@ -119,13 +111,6 @@ var events = {
 			"venue": "MSH, Mining and CSE seminar halls",
 			"description": "Set of contests and sessions in which various algorithms and data structures were covered. Track 2 Graphs and trees: Topics covered BFS, DFS, Dijkstra, and Floyd Warshall. String Hashing: Topics covered string hashing, combining string hashing with binary search. Segment trees: Topics covered prefix arrays, suffix arrays, segment trees, and its applications. Track 1 Basics: Reading input, output, variables and control statements. Sorting: Sorting algorithms and applications. STL, time complexity: STL containers and calculation of time complexity. Recursion and Number theory: Recursion and modulo arithmetic. Contests: Platform-Hackerrank Graphs and trees, segment trees and string hashing, C++ basics, STL-Recursion-Number Theory.",
 			"link": "https://drive.google.com/file/d/1JJ5VPcdP_TN_phV7MEuBDZD5XyoYJV4R/view"
-		},
-		{
-			"timestamp": 1539561600,
-			"title": "Codebuddy",
-			"venue": "slack",
-			"description": "New recruits get a chance to interact with veteran coders, and discuss a DSA problem.",
-			"link": ""
 		}
 	],
 		"Nov": [

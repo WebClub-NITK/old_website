@@ -34,11 +34,7 @@ function load_events(month, year) {
 
 							// Add slides if it exists
 							(event_element_details.link?
-							('>>> Link to slides : <a href="/slides/' + event_element_details.link + '">' + event_element_details.link + '</a>'):'') + 
-							
-							// External link to images if it exists
-							(event_element_details.images_link?
-							('>>> : <a href="' + event_element_details.images_link + '">Event Images</a>'):'') + 
+							('>>> Link to slides/event images : <a href="/slides/' + event_element_details.link + '">' + event_element_details.link + '</a>'):'') + 
 							
 							'</p></div></div>';
 		console.log(event_element_details);
