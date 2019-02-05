@@ -1,9 +1,17 @@
 var post_bearers = [
 	{
-		"Name": "Vilas Bhat",
+		"Name": "Sowmya Kamath S",
 		"Email Address": "email@gmail.com",
 		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/",
+		"Linkedin": "https://www.linkedin.com/",
+		"Image": "http://infotech.nitk.ac.in/faculty/sowmya-kamath-s",
+		"Post": "Faculty Advisor"
+	},
+	{
+		"Name": "Vilas Bhat",
+		"Email Address": "vilasbhat97@gmail.com",
+		"Github": "github.com/vilas897",
+		"Linkedin":"https://www.linkedin.com/in/vilasbhat97/",
 		"Image":"images/posts/default.jpg",
 		"Post":"Convener"
 	},
@@ -17,40 +25,40 @@ var post_bearers = [
 	},
 	{
 		"Name": "Kaushik S Kalmady",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/",
+		"Email Address": "kaushikskalmady@yahoo.in",
+		"Github": "github.com/kaushiksk",
+		"Linkedin":"https://linkedin.com/in/kaushiksk",
 		"Image":"images/posts/default.jpg",
 		"Post":"Chairman"
 	},
 	{
 		"Name": "Arvind Sai Krishnan",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/",
-		"Image":"images/posts/default.jpg",
+		"Email Address": "krishnanarvind100@gmail.com",
+		"Github": "https://github.com/arvindsaik",
+		"Linkedin":"https://www.linkedin.com/in/arvindsaik",
+		"Image":"https://arvindsaik.github.io/images/avatar.jpg",
 		"Post":"Joint-Convener"
 	},
 	{
 		"Name": "Anumeha Agrawal",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
+		"Email Address": "anumehaagrawal29@gmail.com",
+		"Github": "https://github.com/anumehaagrawal",
 		"Linkedin":"https://www.linkedin.com/",
 		"Image":"images/posts/default.jpg",
 		"Post":"Treasurer"
 	},
 	{
 		"Name": "Praveen Kumar Gupta",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/",
-		"Image":"images/posts/default.jpg",
+		"Email Address": "pvgupta24@gmail.com",
+		"Github": "https://github.com/pvgupta24",
+		"Linkedin":"https://www.linkedin.com/in/pvgupta24/",
+		"Image":"https://avatars0.githubusercontent.com/u/21684823?s=460&v=4",
 		"Post":"Web Master"
 	},
 	{
 		"Name": "M Naveen Kumar",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
+		"Email Address": "mnaveenkumar2009@gmail.com",
+		"Github": "https://github.com/mnaveenkumar2009",
 		"Linkedin":"https://www.linkedin.com/",
 		"Image":"images/posts/default.jpg",
 		"Post":"Coding Platform Coordinator"
@@ -73,18 +81,18 @@ var post_bearers = [
 	},
 	{
 		"Name": "Aditya K Kamath",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/",
+		"Email Address": "akamath1997@gmail.com ",
+		"Github": "https://github.com/AKKamath",
+		"Linkedin":"https://www.linkedin.com/in/aditya-katapadi-kamath-b76583140/",
 		"Image":"images/posts/default.jpg",
 		"Post":"Algorithms Group Vice-Chair"
 	},
 	{
 		"Name": "Ashwin Joisa",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
-		"Image": "images/posts/default.jpg",
+		"Email Address": "ashwinjoisa@gmail.com",
+		"Github": "https://github.com/Aj163",
+		"Linkedin": "https://www.linkedin.com/in/aj163/",
+		"Image": "https://avatars0.githubusercontent.com/u/28698851?s=400&u=35f96783d4e154788f59997ab2f115065c064fe6&v=4",
 		"Post": "Algorithms Group Secretary"
 	},
 	{
@@ -97,7 +105,7 @@ var post_bearers = [
 	},
 	{
 		"Name": "Amlan Praharaj",
-		"Email Address": "email@gmail.com",
+		"Email Address": "amlan.prj@gmail.com",
 		"Github": "https://github.com/",
 		"Linkedin": "https://www.linkedin.com/",
 		"Image": "images/posts/default.jpg",
@@ -105,60 +113,61 @@ var post_bearers = [
 	},
 	{
 		"Name": "Moksh Jain",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
+		"Email Address": "mokshjn00@gmail.com",
+		"Github": "https://github.com/MJ10",
+		"Linkedin": "https://www.linkedin.com/in/mokshjain",
 		"Image": "images/posts/default.jpg",
 		"Post": "Intelligence Group Secretary"
 	},
 	{
 		"Name": "Hrishikesh Hiraskar",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
-		"Image": "images/posts/default.jpg",
+		"Email Address": "hrishihiraskar@gmail.com",
+		"Github": "https://github.com/hrily/",
+		"Linkedin": "https://www.linkedin.com/in/hrishi-hiraskar/",
+		"Image": "https://avatars0.githubusercontent.com/u/13836720?s=400&v=4",
 		"Post": "Development Group Chair"
 	},
 	{
 		"Name": "Salman Shah",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
+		"Email Address": "sbs.191197@gmail.com",
+		"Github": "https://GitHub.com/salman-bhai",
 		"Linkedin": "https://www.linkedin.com/",
 		"Image": "images/posts/default.jpg",
 		"Post": "Development Group Vice-Chair"
 	},
 	{
 		"Name": "Utkarsh Patil",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
-		"Image": "images/posts/default.jpg",
+		"Email Address": "utkarsh2305@gmail.com",
+		"Github": "https://github.com/utkarsh23",
+		"Linkedin": "https://www.linkedin.com/in/utkarsh-patil",
+		"Image": "https://avatars1.githubusercontent.com/u/12075549?s=400&u=a799a5fd655162d9090c4e3e77cf8cb9e6b8b88b&v=4",
 		"Post": "Development Group Secretary"
 	},
 	{
 		"Name": "Rakshith G",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
+		"Email Address": "in.rakshith.g@gmail.com",
+		"Github": "https://github.com/hehaichi",
+		"Linkedin": "https://www.linkedin.com/in/rakshithg	/",
 		"Image": "images/posts/default.jpg",
 		"Post": "Systems & Security Group Chair"
 	},
 	{
 		"Name": "Kapil Bharath",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
+		"Email Address": "kapilace6@gmail.com",
+		"Github": "https://github.com/kapilace6",
+		"Linkedin": "https://www.linkedin.com/in/kapilace6",
 		"Image": "images/posts/default.jpg",
 		"Post": "Systems & Security Group Vice-Chair"
 	},
 	{
 		"Name": "Ram Aditya",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
+		"Email Address": "adityaram532@gmail.com",
+		"Github": "https://github.com/Ram-Aditya",
 		"Linkedin": "https://www.linkedin.com/",
 		"Image": "images/posts/default.jpg",
 		"Post": "Systems & Security Group Secretary"
 	}
+	
 ];
 
 var btech_final_years = [
@@ -633,6 +642,13 @@ var mca_first_years = [
 		"Email Address": "shivanshsharma1996@gmail.com"
 	}
 ];
+var first_years = [
+	{
+		"Name": "Kinshuk kashyap",
+		"Email Address": "mynktpt@gmail.com"
+	}
+];
+
 
 var mca_second_years = [
 	{
