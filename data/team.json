@@ -4,7 +4,7 @@ var post_bearers = [
 		"Email Address": "email@gmail.com",
 		"Github": "https://github.com/",
 		"Linkedin": "https://www.linkedin.com/",
-		"Image": "http://infotech.nitk.ac.in/faculty/sowmya-kamath-s",
+		"Image": "https://media.licdn.com/dms/image/C4D03AQFJBraAzEQXLQ/profile-displayphoto-shrink_800_800/0?e=1554940800&v=beta&t=reZ1xvubwxI-Kp24O74R3Hpewkg9FvBJuQCEyoqDbeM",
 		"Post": "Faculty Advisor"
 	},
 	{
@@ -12,7 +12,7 @@ var post_bearers = [
 		"Email Address": "vilasbhat97@gmail.com",
 		"Github": "github.com/vilas897",
 		"Linkedin":"https://www.linkedin.com/in/vilasbhat97/",
-		"Image":"images/posts/default.jpg",
+		"Image":"https://avatars1.githubusercontent.com/u/16369855?s=460&v=4",
 		"Post":"Convener"
 	},
 	{
@@ -28,7 +28,7 @@ var post_bearers = [
 		"Email Address": "kaushikskalmady@yahoo.in",
 		"Github": "github.com/kaushiksk",
 		"Linkedin":"https://linkedin.com/in/kaushiksk",
-		"Image":"images/posts/default.jpg",
+		"Image":"https://avatars2.githubusercontent.com/u/19279785?s=460&v=4",
 		"Post":"Chairman"
 	},
 	{
@@ -44,7 +44,7 @@ var post_bearers = [
 		"Email Address": "anumehaagrawal29@gmail.com",
 		"Github": "https://github.com/anumehaagrawal",
 		"Linkedin":"https://www.linkedin.com/",
-		"Image":"images/posts/default.jpg",
+		"Image":"https://avatars2.githubusercontent.com/u/25412153?s=460&v=4",
 		"Post":"Treasurer"
 	},
 	{
@@ -66,8 +66,8 @@ var post_bearers = [
 	{
 		"Name": "Akhil U",
 		"Email Address": "hrishihiraskar@gmail.com",
-		"Github": "https://github.com/hrily",
-		"Linkedin":"https://www.linkedin.com/hrishi-hiraskar",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/",
 		"Image":"images/posts/default.jpg",
 		"Post":"Comps Committee Convener"
 	},
@@ -98,7 +98,7 @@ var post_bearers = [
 	{
 		"Name": "Ambareesh Prakash",
 		"Email Address": "vilasnitk19@gmail.com",
-		"Github": "https://github.com/vilas897",
+		"Github": "https://github.com/",
 		"Linkedin": "https://www.linkedin.com/",
 		"Image": "images/posts/default.jpg",
 		"Post": "Intelligence Group Chair"
@@ -116,7 +116,7 @@ var post_bearers = [
 		"Email Address": "mokshjn00@gmail.com",
 		"Github": "https://github.com/MJ10",
 		"Linkedin": "https://www.linkedin.com/in/mokshjain",
-		"Image": "images/posts/default.jpg",
+		"Image": "https://avatars0.githubusercontent.com/u/4126775?s=460&v=4",
 		"Post": "Intelligence Group Secretary"
 	},
 	{
@@ -147,7 +147,7 @@ var post_bearers = [
 		"Name": "Rakshith G",
 		"Email Address": "in.rakshith.g@gmail.com",
 		"Github": "https://github.com/hehaichi",
-		"Linkedin": "https://www.linkedin.com/in/rakshithg	/",
+		"Linkedin": "https://www.linkedin.com/in/rakshithg/",
 		"Image": "images/posts/default.jpg",
 		"Post": "Systems & Security Group Chair"
 	},
@@ -394,7 +394,7 @@ var btech_third_years = [
 		"Name": "Adwaith V Gautham",
 		"Email Address": "sbs.191197@gmail.com",
 		"Github": "https://github.com/salman-bhai",
-		"Linkedin":"https://www.linkedin.com/in/sbshah97/"
+		"Linkedin":"https://www.linkedin.com/in/"
 	},
 	{
 		"Name": "Archana Priyadarshani Sahoo",
@@ -605,43 +605,6 @@ var btech_second_years = [
 	}
 ];
 
-var mca_second_years = [
-	{
-		"Name": "Mayank Tripathi",
-		"Email Address": "mynktpt@gmail.com"
-	},
-	{
-		"Name": "Vishal Singh",
-		"Email Address": "vs134674@gmail.com"
-	}
-];
-
-var mca_first_years = [
-	{
-		"Name": "Aayush Rastogi",
-		"Email Address": "rastogiaayush13@gmail.com"
-	},
-	{
-		"Name": "Ankit Gaur",
-		"Email Address": "gaur.ankit9@gmail.com"
-	},
-	{
-		"Name": "Shilpi Pandey",
-		"Email Address": "shilpi23pandey@gmail.com"
-	},
-	{
-		"Name": "Adarsh Jha",
-		"Email Address": "jha.adarsh95@gmail.com"
-	},
-	{
-		"Name": "Swaraj Mishra",
-		"Email Address": "swmshra.mishra15@gmail.com"
-	},
-	{
-		"Name": "Shivansh Sharma",
-		"Email Address": "shivanshsharma1996@gmail.com"
-	}
-];
 var first_years = [
 	{
 		"Name": "Kinshuk kashyap",
@@ -649,45 +612,6 @@ var first_years = [
 	}
 ];
 
-
-var mca_second_years = [
-	{
-		"Name": "Mayank Tripathi",
-		"Email Address": "mynktpt@gmail.com"
-	},
-	{
-		"Name": "Vishal Singh",
-		"Email Address": "vs134674@gmail.com"
-	}
-];
-
-var mca_first_years = [
-	{
-		"Name": "Aayush Rastogi",
-		"Email Address": "rastogiaayush13@gmail.com"
-	},
-	{
-		"Name": "Ankit Gaur",
-		"Email Address": "gaur.ankit9@gmail.com"
-	},
-	{
-		"Name": "Shilpi Pandey",
-		"Email Address": "shilpi23pandey@gmail.com"
-	},
-	{
-		"Name": "Adarsh Jha",
-		"Email Address": "jha.adarsh95@gmail.com"
-	},
-	{
-		"Name": "Swaraj Mishra",
-		"Email Address": "swmshra.mishra15@gmail.com"
-	},
-	{
-		"Name": "Shivansh Sharma",
-		"Email Address": "shivanshsharma1996@gmail.com"
-	},
-	
-];
 
 var alumni_2k17 = [
 	{
