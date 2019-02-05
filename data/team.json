@@ -1,9 +1,9 @@
 var post_bearers = [
 	{
 		"Name": "Sowmya Kamath S",
-		"Email Address": "email@gmail.com",
+		"Email Address": "sowmyakamath@nitk.edu.in",
 		"Github": "https://github.com/",
-		"Linkedin": "https://www.linkedin.com/",
+		"Linkedin": "https://www.linkedin.com/in/sowmya-kamath-s",
 		"Image": "http://infotech.nitk.ac.in/faculty/sowmya-kamath-s",
 		"Post": "Faculty Advisor"
 	},
@@ -263,8 +263,8 @@ var btech_final_years = [
 	},
 	{
 		"Name": "Leslie Monis",
-		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
+		"Email Address": "lesliemonis@gmail.com",
+		"Github": "https://github.com/lesliemonis",
 		"Linkedin":"https://www.linkedin.com/"
 	},
 	{
@@ -288,12 +288,12 @@ var btech_final_years = [
 	{
 		"Name": "Jeshventh Raja T K",
 		"Email Address": "email@gmail.com",
-		"Github": "https://github.com/",
-		"Linkedin":"https://www.linkedin.com/"
+		"Github": "https://github.com/jeshventhraja",
+		"Linkedin":"https://www.linkedin.com/in/jeshventh-raja-t-k-7b2791131"
 	},
 	{
 		"Name": "Barun Kumar Acharya",
-		"Email Address": "vilasnitk19@gmail.com",
+		"Email Address": "barunkumaracharya@gmail.com",
 		"Github": "https://github.com/vilas897",
 		"Linkedin": "https://www.linkedin.com/"
 	},
@@ -688,6 +688,35 @@ var mca_first_years = [
 	},
 	
 ];
+
+var alumni_2k18 = [
+	{
+		"name": "Mohit Reddy",
+		"emailAddress": "mohitreddy1996@gmail.com",
+		"github": "https://github.com/",
+		"linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"name": "T Subramaniam",
+		"emailAddress": "nitksubbu@gmail.com",
+		"github": "https://github.com/",
+		"linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"name": " T. Guru Pradeep Reddy",
+		"emailAddress": "gurupradeept@gmail.com",
+		"github": "https://github.com/",
+		"linkedin":"https://www.linkedin.com/"
+	},
+	{
+		"name": "Sheetal Shalini",
+		"emailAddress": "sheetalsh456@gmail.com",
+		"github": "https://github.com/",
+		"linkedin":"https://www.linkedin.com/"
+	}
+];
+
+
 
 var alumni_2k17 = [
 	{
