@@ -49,16 +49,113 @@ var events = {
 		"Apr": [],
 		"May": [],
 		"June": [],
-		"July": [],
-		"Aug": [],
-		"Sept": [],
-		"Oct": [],
-		"Nov": [],
+		"July": [
+			{
+				"timestamp": 1515069000000,
+				"title": "Clique",
+				"venue": "Online",
+				"description": "Programming contest",
+				"link": ""
+			}	
+		],
+		"Aug": [
+			{
+				"timestamp": 1515069000000,
+				"title": "Software Freedom Week",
+				"venue": "cse Seminar Hall",
+				"description": "A week long series of talks focused on open source software. The aim was to introduce the audience to open source opportunities.",
+				"link": "https://drive.google.com/open?id=109-lK9PuACr8lENTzDNZ2EveVN8WmgOd"
+			},
+			{
+				"timestamp": 1515069000000,
+				"title": "Intern 411",
+				"venue": "NITK",
+				"description": "Allowed students to anonymously submit questions they had about on-campus internship drives. Collectively answered all questions in a public document.",
+				"link": "https://drive.google.com/file/d/1HlMYrxN6u3mtUf4XrKuORrBWBkLnGv_P/view"
+			},
+			{
+				"timestamp": 1515069000000,
+				"title": "Software Freedom Week",
+				"venue": "cse Seminar Hall",
+				"description": "",
+				"link": ""
+			}
+		],
+		"Sept": [
+			{
+				"timestamp": 1515069000000,
+				"title": "CP League",
+				"venue": "MSH, Mining and CSE seminar halls",
+				"description": "Set of contests and sessions in which various algorithms and data structures were covered. Track 2 Graphs and trees: Topics covered BFS, DFS, Dijkstra, and Floyd Warshall. String Hashing: Topics covered string hashing, combining string hashing with binary search. Segment trees: Topics covered prefix arrays, suffix arrays, segment trees, and its applications. Track 1 Basics: Reading input, output, variables and control statements. Sorting: Sorting algorithms and applications. STL, time complexity: STL containers and calculation of time complexity. Recursion and Number theory: Recursion and modulo arithmetic. Contests: Platform-Hackerrank Graphs and trees, segment trees and string hashing, C++ basics, STL-Recursion-Number Theory.",
+				"link": "https://drive.google.com/file/d/1JJ5VPcdP_TN_phV7MEuBDZD5XyoYJV4R/view"
+			},
+			{
+				"timestamp": 1515069000000,
+				"title": "Codebuddy",
+				"venue": "slack",
+				"description": "New recruits get a chance to interact with veteran coders, and discuss a DSA problem.			",
+				"link": ""
+			}
+
+		],
+		"Oct": [		
+			{
+			"timestamp": 1515069000000,
+			"title": "Hacktoberfest",
+			"venue": "Mining Seminar Hall",
+			"description": "Hacktoberfest is a global celebration of open source to encourage people to contribute to the open source community. We held two meetups in NITK to create awareness about this initiative and improve the open source culture of the institute by taking sessions on version control and maintained a repository for contributions. ",
+			"link": "https://drive.google.com/open?id=1d1oeRNtVqr5Yiy3D5IwaeXsQsmkhARoB"
+		},
+		{
+			"timestamp": 1515069000000,
+			"title": "Athena Bootcamp",
+			"venue": "Mining Seminar Hall",
+			"description": "The aim of this bootcamp was to  introduce  girls  in  the  campus  to  various  kinds  of   technical  tools  and  frameworks and get them started. Since there were a lot of first and second year participants we decided to provide a base so they can decide which technology to use and build an innovative product. All the workshops were hands on with volunteers from Web Club.",
+			"link": "https://drive.google.com/file/d/0Bwc_29LS3pAsWWREaGxnckpGNFFYbEhxSGtlNW9NbUJyVy1J/view?usp=sharing"
+		},
+		{
+			"timestamp": 1515069000000,
+			"title": "CP League",
+			"venue": "MSH, Mining and CSE seminar halls",
+			"description": "Set of contests and sessions in which various algorithms and data structures were covered. Track 2 Graphs and trees: Topics covered BFS, DFS, Dijkstra, and Floyd Warshall. String Hashing: Topics covered string hashing, combining string hashing with binary search. Segment trees: Topics covered prefix arrays, suffix arrays, segment trees, and its applications. Track 1 Basics: Reading input, output, variables and control statements. Sorting: Sorting algorithms and applications. STL, time complexity: STL containers and calculation of time complexity. Recursion and Number theory: Recursion and modulo arithmetic. Contests: Platform-Hackerrank Graphs and trees, segment trees and string hashing, C++ basics, STL-Recursion-Number Theory.",
+			"link": "https://drive.google.com/file/d/1JJ5VPcdP_TN_phV7MEuBDZD5XyoYJV4R/view"
+		},
+		{
+			"timestamp": 1515069000000,
+			"title": "Codebuddy",
+			"venue": "slack",
+			"description": "New recruits get a chance to interact with veteran coders, and discuss a DSA problem.",
+			"link": ""
+		}
+	],
+		"Nov": [
+			{
+				"timestamp": 1515069000000,
+				"title": "Athena",			
+				"venue": "Virtual Classroom , CCC",
+				"description": "Athena , the women’s hackathon was an event where women teams come up to the forefront and participate in coding events.Through this 24 hour hackathon we aimed to promote programming and create a coding culture amongst the women in college.  We also had a theme ' Me for society' and teams came up with innovation web/mobile solutions.",
+				"link": "https://photos.app.goo.gl/Q732uVM8fvaSeyS38"
+			},
+			{
+				"timestamp": 1515069000000,
+				"title": "CP League",
+				"venue": "MSH, Mining and CSE seminar halls",
+				"description": "Set of contests and sessions in which various algorithms and data structures were covered. Track 2 Graphs and trees: Topics covered BFS, DFS, Dijkstra, and Floyd Warshall. String Hashing: Topics covered string hashing, combining string hashing with binary search. Segment trees: Topics covered prefix arrays, suffix arrays, segment trees, and its applications. Track 1 Basics: Reading input, output, variables and control statements. Sorting: Sorting algorithms and applications. STL, time complexity: STL containers and calculation of time complexity. Recursion and Number theory: Recursion and modulo arithmetic. Contests: Platform-Hackerrank Graphs and trees, segment trees and string hashing, C++ basics, STL-Recursion-Number Theory.",
+				"link": "https://drive.google.com/file/d/1JJ5VPcdP_TN_phV7MEuBDZD5XyoYJV4R/view"
+			},
+			{
+				"timestamp": 1515069000000,
+				"title": "Linux Installation Drive",
+				"venue": "ATB 1.3",
+				"description": "A session on introducing students to the Linux OS and helping them install Ubuntu on their systems. In collaboration with ACM NITK.",
+				"link": "https://drive.google.com/file/d/1U5_tEpGj6ZUpb0duZ3gaTmEsfzb9h3Yx/view"
+			}
+		],
 		"Dec": []
 	},
 	"2017": {
 		"Jan": [
-			{
+			{		
 				"timestamp": 1483875780000,
 				"title": "Papers We Love - LFU",
 				"venue": "ISTE Seminar Hall",
