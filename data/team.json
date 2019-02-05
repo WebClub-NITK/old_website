@@ -4,7 +4,7 @@ var post_bearers = [
 		"Email Address": "sowmyakamath@nitk.edu.in",
 		"Github": "https://github.com/",
 		"Linkedin": "https://www.linkedin.com/in/sowmya-kamath-s",
-		"Image": "http://infotech.nitk.ac.in/faculty/sowmya-kamath-s",
+		"Image": "https://media.licdn.com/dms/image/C4D03AQFJBraAzEQXLQ/profile-displayphoto-shrink_800_800/0?e=1554940800&v=beta&t=reZ1xvubwxI-Kp24O74R3Hpewkg9FvBJuQCEyoqDbeM",
 		"Post": "Faculty Advisor"
 	},
 	{
@@ -605,77 +605,37 @@ var btech_second_years = [
 	}
 ];
 
-var first_years = [
+var btech_first_years = [
 	{
 		"Name": "Kinshuk kashyap",
 		"Email Address": "mynktpt@gmail.com"
 	}
 ];
 
-
-var mca_second_years = [
-	{
-		"Name": "Mayank Tripathi",
-		"Email Address": "mynktpt@gmail.com"
-	},
-	{
-		"Name": "Vishal Singh",
-		"Email Address": "vs134674@gmail.com"
-	}
-];
-
-var mca_first_years = [
-	{
-		"Name": "Aayush Rastogi",
-		"Email Address": "rastogiaayush13@gmail.com"
-	},
-	{
-		"Name": "Ankit Gaur",
-		"Email Address": "gaur.ankit9@gmail.com"
-	},
-	{
-		"Name": "Shilpi Pandey",
-		"Email Address": "shilpi23pandey@gmail.com"
-	},
-	{
-		"Name": "Adarsh Jha",
-		"Email Address": "jha.adarsh95@gmail.com"
-	},
-	{
-		"Name": "Swaraj Mishra",
-		"Email Address": "swmshra.mishra15@gmail.com"
-	},
-	{
-		"Name": "Shivansh Sharma",
-		"Email Address": "shivanshsharma1996@gmail.com"
-	},
-	
-];
-
 var alumni_2k18 = [
 	{
-		"name": "Mohit Reddy",
-		"emailAddress": "mohitreddy1996@gmail.com",
-		"github": "https://github.com/",
-		"linkedin":"https://www.linkedin.com/"
+		"Name": "Mohit Reddy",
+		"Email Address": "mohitreddy1996@gmail.com",
+		"Github": "https://github.com/",
+		"Llinkedin":"https://www.linkedin.com/"
 	},
 	{
-		"name": "T Subramaniam",
-		"emailAddress": "nitksubbu@gmail.com",
-		"github": "https://github.com/",
-		"linkedin":"https://www.linkedin.com/"
+		"Name": "T Subramaniam",
+		"Email Address": "nitksubbu@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
 	},
 	{
-		"name": " T. Guru Pradeep Reddy",
-		"emailAddress": "gurupradeept@gmail.com",
-		"github": "https://github.com/",
-		"linkedin":"https://www.linkedin.com/"
+		"Name": " T. Guru Pradeep Reddy",
+		"Email Address": "gurupradeept@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
 	},
 	{
-		"name": "Sheetal Shalini",
-		"emailAddress": "sheetalsh456@gmail.com",
-		"github": "https://github.com/",
-		"linkedin":"https://www.linkedin.com/"
+		"Name": "Sheetal Shalini",
+		"Email Address": "sheetalsh456@gmail.com",
+		"Github": "https://github.com/",
+		"Linkedin":"https://www.linkedin.com/"
 	}
 ];
 
