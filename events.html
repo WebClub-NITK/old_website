@@ -56,6 +56,39 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body >
+	
+	
+	<header>
+
+		<nav class='header-img'>
+			<img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
+
+		</nav>
+		<nav class='header'>
+
+			<div class="head-text"> WEB ENTHUSIASTS' CLUB NITK</div>
+
+		</nav>
+		<div id="myNav" class="overlay">
+
+			<!-- Button to close the overlay navigation -->
+			<!-- <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a> -->
+
+			<!-- Overlay content -->
+			<div class="overlay-content">
+				<a href="/index">HOME</a>
+				<a href="/">EVENTS</a>
+				<a href="/contests">CONTESTS</a>
+				<a href="/projects">PROJECTS</a>
+				<a href="/team">TEAM</a>
+			</div>
+
+		</div>
+
+	</header>
+	
+	
+	
 	<div class="row">
 		<div id="main-head" class="d-none d-lg-block col-lg-4 order-lg-1"><div class="jumbotron"><h1 class="display-1">Events</h1></div></div>
 		<div id="m-main-head" class="d-lg-none d-xl-none align-items-center"><h1>Events</h1></div>
@@ -111,6 +144,6 @@
 
 	<!-- JSON data -->
 	<script type="text/javascript" src="data/events.json"></script>
-
+	<script src='/js/header.js'></script>
 </body>
 </html>
