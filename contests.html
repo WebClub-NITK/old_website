@@ -58,6 +58,37 @@
 	<script src="data/contests.json"></script>
 </head>
 <body style="overflow-y: scroll;">
+	
+	
+	
+	<header>
+
+		<nav class='header-img'>
+			<img class='menu-pic' id='menu-pic' src='images/menu.svg' onclick="openMenu()">
+
+		</nav>
+		<nav class='header'>
+
+			<div class="head-text"> WEB ENTHUSIASTS' CLUB NITK</div>
+
+		</nav>
+		<div id="myNav" class="overlay">
+
+			<!-- Button to close the overlay navigation -->
+			<!-- <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a> -->
+
+			<!-- Overlay content -->
+			<div class="overlay-content">
+				<a href="/index">HOME</a>
+				<a href="/events">EVENTS</a>
+				<a href="/">CONTESTS</a>
+				<a href="/projects">PROJECTS</a>
+				<a href="/team">TEAM</a>
+			</div>
+
+		</div>
+
+	</header>
 
 
 	<!-- Main container -->
@@ -153,5 +184,6 @@
 
 
 	<script src="js/contests.js" type="text/javascript"></script>
+	<script src='/js/header.js'></script>
 </body>
 </html>
